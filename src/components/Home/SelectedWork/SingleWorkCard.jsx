@@ -32,7 +32,7 @@ const SingleWorkCard = ({ data }) => {
         {/* hover card */}
         <Link
           to={`/works/${data.title}`}
-          className="w-[90%] px-8 py-4 rounded-full case_study_blur absolute bottom-7 mx-auto text-white left-1/2 -translate-x-1/2 flex justify-between items-center translate-y-[200%] group-hover:translate-y-0 transition-all duration-300"
+          className="w-[90%] px-8 py-4 rounded-full case_study_blur absolute bottom-4 lg:bottom-7 mx-auto text-white left-1/2 -translate-x-1/2 flex justify-between items-center lg:translate-y-[200%] lg:group-hover:translate-y-0 transition-all duration-300"
         >
           <p className="text-white text-sm font-semibold">Read Case Study</p>
 
