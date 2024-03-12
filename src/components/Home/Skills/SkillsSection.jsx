@@ -1,7 +1,6 @@
 import skillsBgLarge from "~/assets/images/skills/bgSkills-lg.png";
 import skillsBgSmall from "~/assets/images/skills/bgSkills-sm.png";
 import SkillsListsLarge from "~/assets/images/skills/SkillsLists-lg.png";
-import SkillsListsSmall from "~/assets/images/skills/SkillsLists-sm.png";
 
 import star1 from "~/assets/images/skills/skillsStar1.png";
 import star2 from "~/assets/images/skills/skillsStar2.png";
@@ -37,12 +36,12 @@ const SkillsSection = () => {
       </div>
 
       {/* small screen */}
-      <div className="w-full px-5 pt-7 pb-4 relative md:hidden">
-        <img src={skillsBgSmall} alt="" className="w-full object-contain" />
+      <div className="w-full px-5 pt-7 pb-4 relative h-fit md:hidden">
+        <img src={skillsBgSmall} alt="" className="w-full h-full max-h-[449px]" />
 
-        <div className="absolute inset-0 w-full h-full flex flex-col px-12 gap-y-6 pt-10 ">
+        <div className="absolute inset-0 w-full h-full flex flex-col justify-between px-12 gap-y-6 pt-10 pb-14">
           {/* star1 */}
-          <img src={star1} alt="star" className="absolute object-contain top-[8rem] left-8 size-32" />
+          <img src={star1} alt="star" className="absolute object-contain top-[8rem] left-8 size-32 opacity-35" />
 
           {/* star2 */}
           <img src={star2} alt="star" className="absolute object-contain top-16 left-16 opacity-45 size-14" />
@@ -59,7 +58,7 @@ const SkillsSection = () => {
           </div>
 
           {/* skills collection */}
-          <img src={SkillsListsSmall} alt="image" />
+          <img src={SkillsListsLarge} alt="image" className="" />
         </div>
       </div>
     </section>

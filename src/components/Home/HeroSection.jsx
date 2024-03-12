@@ -11,7 +11,7 @@ const HeroSection = () => {
       {/* bg image */}
       <img src={heroBg} alt="bg-image" className="absolute inset-0 w-full h-full z-0" />
 
-      <div className="max-w-[1200px] w-full mx-auto px-4 md:px-8 pt-16 lg:pt-10 lg:px-0 relative mt-20 z-10">
+      <div className="max-w-[1200px] w-full mx-auto px-4 md:px-8 pt-10 lg:px-0 relative mt-20 z-10">
         {/* star */}
         <img
           src={star}
@@ -42,7 +42,7 @@ const HeroSection = () => {
           {chipsContent.map((chip, i) => (
             <div
               key={i}
-              className="border border-border bg-onTertiary px-4 md:px-5 py-3 rounded-full md:text-sm text-xs text-primary-text"
+              className="border border-border bg-onTertiary px-5 py-3 rounded-full text-sm text-primary-text"
             >
               {chip}
             </div>
