@@ -87,7 +87,7 @@ const Header = () => {
         </nav>
 
         {/* mobile navigation */}
-        <div>
+        <div className="lg:hidden">
           {/* mobile hamburger */}
           {!showMobile ? (
             <svg
