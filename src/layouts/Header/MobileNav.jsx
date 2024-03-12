@@ -6,7 +6,7 @@ import { socials } from "../Footer/Footer";
 const MobileNav = ({ showMobile, setShowMobile, list }) => {
   return (
     <div
-      className={`w-full h-[100vh] z-50 mobileNav-bg fixed top-[70px] pt-8 px-5 lg:hidden ${showMobile ? "right-0" : "-right-full"} transition-all duration-500`}
+      className={`w-full min-h-[100vh] z-50 mobileNav-bg fixed top-[60px] pt-8 px-5 lg:hidden ${showMobile ? "right-0" : "-right-full"} transition-all duration-500`}
     >
       <div className="space-y-[20px] flex flex-col items-start">
         {list.map((li) => (

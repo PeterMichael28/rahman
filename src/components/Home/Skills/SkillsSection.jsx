@@ -37,7 +37,7 @@ const SkillsSection = () => {
 
       {/* small screen */}
       <div className="w-full px-5 pt-7 pb-4 relative h-fit md:hidden">
-        <img src={skillsBgSmall} alt="" className="w-full h-full max-h-[449px]" />
+        <img src={skillsBgSmall} alt="" className="w-full h-full max-h-[479px]" />
 
         <div className="absolute inset-0 w-full h-full flex flex-col justify-between px-12 gap-y-6 pt-10 pb-14">
           {/* star1 */}

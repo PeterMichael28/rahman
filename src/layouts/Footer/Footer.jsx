@@ -48,7 +48,7 @@ const Footer = () => {
       </div>
 
       <div className="max-w-[1200px] w-full mx-auto px-5 lg:px-0 pt-10 lg:pt-20">
-        <div className="flex flex-col lg:flex-row items-start lg:justify-between lg:items-center gap-y-4 relative z-20 w-full">
+        <div className="flex flex-col lg:flex-row items-start lg:justify-between lg:items-center gap-y-4 relative z-10 w-full">
           <div>
             <p className="text-[#EAE3FC] text-xl lg:text-3xl font-semibold leading-[110%] tracking-[-0.32px]">
               Ready to build your product?

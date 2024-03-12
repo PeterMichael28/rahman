@@ -11,12 +11,12 @@ const HeroSection = () => {
       {/* bg image */}
       <img src={heroBg} alt="bg-image" className="absolute inset-0 w-full h-full z-0" />
 
-      <div className="max-w-[1200px] w-full mx-auto px-4 md:px-8 pt-10 lg:px-0 relative mt-20 z-10">
+      <div className="max-w-[1200px] w-full mx-auto px-4 md:px-8 pt-10 lg:px-0 relative mt-12 lg:mt-20 z-10">
         {/* star */}
         <img
           src={star}
           alt="star"
-          className="absolute object-contain max-lg:right-12 max-lg:top-6 lg:bottom-40 lg:left-10 size-8 lg:size-9"
+          className="absolute object-contain max-lg:right-12 max-lg:top-6 lg:bottom-40 lg:left-10 size-6 lg:size-9"
         />
 
         {/* spiral image */}
@@ -42,7 +42,7 @@ const HeroSection = () => {
           {chipsContent.map((chip, i) => (
             <div
               key={i}
-              className="border border-border bg-onTertiary px-5 py-3 rounded-full text-sm text-primary-text"
+              className="border border-border bg-onTertiary lgLpx-5 px-3 py-3 rounded-full text-sm lg:text-sm text-primary-text"
             >
               {chip}
             </div>

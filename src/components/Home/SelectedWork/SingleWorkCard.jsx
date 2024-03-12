@@ -4,7 +4,7 @@ import Icon from "./WorkIcon";
 const SingleWorkCard = ({ data }) => {
   return (
     <div
-      className="w-full lg:h-[600px] rounded-[20px] relative pt-[40px] lg:pt-[70px] group"
+      className="w-full lg:h-[530px] rounded-[20px] relative pt-[40px] lg:pt-[70px] group"
       style={{ background: data.bgColor }}
     >
       {/* header */}
@@ -25,8 +25,8 @@ const SingleWorkCard = ({ data }) => {
         </p>
 
         {/* phone */}
-        <div className="flex items-center justify-center mt-10 max-sm:px-10">
-          <img src={data?.frontImage} alt="image" className="h-ful" />
+        <div className="flex items-center justify-center lg:mt-10 mt-7 max-sm:px-10">
+          <img src={data?.frontImage} alt="image" className="h-[315px] lg:h-[400px]" />
         </div>
 
         {/* hover card */}
