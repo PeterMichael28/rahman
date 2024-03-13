@@ -50,15 +50,15 @@ const Footer = () => {
       <div className="max-w-[1200px] w-full mx-auto px-5 lg:px-0 pt-10 lg:pt-20">
         <div className="flex flex-col lg:flex-row items-start lg:justify-between lg:items-center gap-y-4 relative z-10 w-full">
           <div>
-            <p className="text-[#EAE3FC] text-xl lg:text-3xl font-semibold leading-[110%] tracking-[-0.32px]">
+            <p className="text-[#EAE3FC] text-xl lg:text-3xl font-medium leading-[116%] tracking-[-0.36px]">
               Ready to build your product?
             </p>
-            <h2 className="text-white text-3xl lg:text-[54px] font-semibold tracking-[-0.56px] mt-3">
+            <h2 className="text-white text-3xl lg:text-[54px] font-medium tracking-[-0.56px] mt-3 leading-[116%]">
               Lets work together
             </h2>
           </div>
 
-          <button className="py-[14px] px-6 flex items-center justify-center rounded-lg bg-white btn-shadow hover:bg-[#f1edfd] transition-all duration-300 text-primary font-semibold">
+          <button className="py-[14px] px-6 flex items-center justify-center rounded-lg bg-white btn-shadow hover:bg-[#f1edfd] transition-all duration-300 text-primary font-">
             Contact me
           </button>
         </div>
@@ -84,7 +84,7 @@ const Footer = () => {
 
           <div className="flex justify-start lg:justify-end gap-x-[90px] items-start relative z-20 w-full ">
             <nav className="space-y-4">
-              <p className="text-[#eae3fc] font-semibold ">Quicklinks</p>
+              <p className="text-[#eae3fc] font-medium ">Quicklinks</p>
               <ul className="space-y-3">
                 {navContacts.map((nav) => (
                   <li key={nav.label} className="text-white hover:underline transition-all duration-300">
@@ -96,7 +96,7 @@ const Footer = () => {
             </nav>
 
             <nav className="space-y-4">
-              <p className="text-[#eae3fc] font-semibold ">Socials</p>
+              <p className="text-[#eae3fc] font-medium ">Socials</p>
               <ul className="space-y-3">
                 {socials.map((social) => (
                   <li key={social.title} className="text-white flex items-center gap-x-1">

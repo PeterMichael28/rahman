@@ -24,7 +24,7 @@ const SkillsSection = () => {
 
           {/* skill text */}
           <div className="relative z-20">
-            <h3 className="text-[40px] font-semibold leading-[110%] text-white flex justify-start  flex-col gap-y-2">
+            <h3 className="text-[40px] font-medium leading-[120%] text-white flex justify-start  flex-col gap-y-2">
               <span>Some of my</span>
               <span>Technical SKills</span>
             </h3>
@@ -51,7 +51,7 @@ const SkillsSection = () => {
 
           {/* skill text */}
           <div className="relative z-20">
-            <h3 className="text-[30px] font-semibold leading-[110%] text-white flex justify-start  flex-col gap-y-3 text-left mt-10">
+            <h3 className="text-[30px] font-medium leading-[120%] text-white flex justify-start  flex-col gap-y-3 text-left mt-10">
               <span>Some of my</span>
               <span className="text-stroke ">Technical Skills</span>
             </h3>

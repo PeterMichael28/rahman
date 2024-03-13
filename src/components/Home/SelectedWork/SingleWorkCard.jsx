@@ -10,7 +10,7 @@ const SingleWorkCard = ({ data }) => {
       {/* header */}
       <div className="flex justify-center items-center w-full absolute -top-10 max-sm:scale-75">
         <Icon bg={data.headerBgColor} />
-        <span className="text-primary-text font-semibold text-[25px] text-center absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+        <span className="text-primary-text font-medium text-[25px] text-center absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
           {data?.title}
         </span>
       </div>
@@ -18,7 +18,7 @@ const SingleWorkCard = ({ data }) => {
       <div className="relative overflow-hidden h-full">
         {/* sub text */}
         <p
-          className="font-semibold text-sm lg:text-[20px] text-center max-w-[470px] mx-auto lg:px-4 px-6"
+          className="font-medium text-sm lg:text-[20px] leading-[140%] text-center max-w-[470px] mx-auto lg:px-4 px-6"
           style={{ color: data?.subtextColor }}
         >
           {data?.subText}
@@ -34,7 +34,7 @@ const SingleWorkCard = ({ data }) => {
           to={`/works/${data.title}`}
           className="w-[90%] px-8 py-4 rounded-full case_study_blur absolute bottom-4 lg:bottom-7 mx-auto text-white left-1/2 -translate-x-1/2 flex justify-between items-center lg:translate-y-[200%] lg:group-hover:translate-y-0 transition-all duration-300"
         >
-          <p className="text-white text-sm font-semibold">Read Case Study</p>
+          <p className="text-white text-sm font-medium">Read Case Study</p>
 
           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="20" viewBox="0 0 28 20" fill="none">
             <circle cx="10.75" cy="10" r="9.375" stroke="white" strokeWidth="1.25" />

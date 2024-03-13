@@ -28,12 +28,12 @@ const HeroSection = () => {
 
         {/* header text */}
 
-        <h1 className="uppercase flex text-left flex-col lg:text-center font-black text-primary-text text-[41px] md:text-[80px] lg:text-[110px] tracking-tight leading-[110%] px-2">
+        <h1 className="uppercase flex text-left flex-col lg:text-center font-black text-primary-text text-[41px] md:text-[80px] lg:text-[110px] tracking-[-0.248px] leading-[116%] px-2">
           <span>Mobile App</span>
           <span>Developer</span>
         </h1>
 
-        <p className="max-w-2xl px-2 mx-auto text-tertiary my-4 text-left max-sm:text-sm lg:text-center">
+        <p className="max-w-2xl px-2 mx-auto text-tertiary my-4 text-left max-sm:text-sm lg:text-center leading-[150%] tracking-[0.04px]">
           A dedicated and experienced mobile engineer focused on building functional products embedded with top-notch
           user experience to ensure positive company impact and success.
         </p>
@@ -42,7 +42,7 @@ const HeroSection = () => {
           {chipsContent.map((chip, i) => (
             <div
               key={i}
-              className="border border-border bg-onTertiary lgLpx-5 px-3 py-3 rounded-full text-sm lg:text-sm text-primary-text"
+              className="border border-border bg-onTertiary lg:px-5 px-3 py-3 rounded-full text-xs lg:text-sm text-primary-text"
             >
               {chip}
             </div>

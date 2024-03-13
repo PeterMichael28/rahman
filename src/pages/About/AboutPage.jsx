@@ -39,19 +39,19 @@ const AboutPage = () => {
 
               {/* details */}
               <div className="mt-4 lg:mt-6 space-y-5 lg:space-y-6 text-[#5A5566] ">
-                <p className="lg:text-lg leading-[140%]">
+                <p className="lg:text-lg leading-[150%]">
                   I am an experienced Mobile Engineer a 4-year track record in crafting mobile applications across
                   diverse sectors such as agrictech, fintech, e-commerce, real estate, and logistics.
                 </p>
-                <p className="font-times text-lg lg:text-[32px]">
+                <p className="font-times text-lg lg:text-[32px] leading-[130%]">
                   “I prioritize integrity, professionalism, and continuous improvement in everything I do.”
                 </p>
-                <p className="lg:text-lg leading-[140%]">
+                <p className="lg:text-lg leading-[150%]">
                   Functionality is important to me with every product I build. I understand the role it plays in user
                   satisfaction and I employ my skills in team leadership, project management, front-end development to
                   ensure I deliver the best, consistently.
                 </p>
-                <p className="lg:text-lg leading-[140%]">I am always learning how to be better and do better.</p>
+                <p className="lg:text-lg leading-[150%]">I am always learning how to be better and do better.</p>
               </div>
 
               {/* button */}

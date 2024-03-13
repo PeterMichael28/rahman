@@ -18,8 +18,8 @@ const SingleCard = ({ obj, id }) => {
         className="w-full lg:py-6 lg:px-8 p-5 bg-onTertiary border text-white shadow rounded-t-lg cursor-pointer relative z-40"
         onClick={() => toggleTab(id)}
       >
-        <div className="flex items-center justify-between text-[#5a5566] font-semibold">
-          <span className="text-sm lg:text-lg">{obj.title}</span>
+        <div className="flex items-center justify-between text-[#5a5566] font-medium">
+          <span className="text-sm lg:text-lg leading-[120%]">{obj.title}</span>
 
           {activeTab !== id ? <span>{icons.chevronDown}</span> : <span>{icons.chevronUp}</span>}
         </div>

@@ -48,10 +48,10 @@ const SingleTestimonialCard = ({ data }) => (
     <div className="flex items-start justify-start gap-4 ">
       <img src={data?.image} alt="image" className="rounded-full object-contain size-12" />
       <div>
-        <h2 className="text-primary-text text-[20px] font-semibold ">{data?.name}</h2>
-        <p className="text-[#7B748B] text-sm font-semibold">{data?.title}</p>
+        <h2 className="text-primary-text text-[20px] font-medium ">{data?.name}</h2>
+        <p className="text-[#7B748B] text-sm font-medium">{data?.title}</p>
       </div>
     </div>
-    <p className="text-[#5A5566] text-sm leading-[150%]">{data?.content}</p>
+    <p className="text-[#5A5566] text-sm leading-[160%]">{data?.content}</p>
   </div>
 );
