@@ -83,9 +83,13 @@ body {
 -webkit-text-stroke-color: var(#FFF);
 }
 
+.btn-shadow{ 
+  background: #fff;
+}
 
-.btn-shadow {
+.btn-shadow:hover {
   box-shadow: 0px 0px 0px 1.5px #CEC2FA, 0px -4px 6px -1px #AD9BEF inset;
+  background: #f1edfd;
 }
 
 .mobileNav-bg {
@@ -93,4 +97,8 @@ body {
 box-shadow: 0px 4px 3px 0px rgba(22, 6, 62, 0.10);
 backdrop-filter: blur(30px);
 -webkit-backdrop-filter: blur(30px);
+}
+
+.faq-shadow {
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.06) inset;
 }

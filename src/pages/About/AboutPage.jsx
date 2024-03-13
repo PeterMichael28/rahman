@@ -39,11 +39,11 @@ const AboutPage = () => {
 
               {/* details */}
               <div className="mt-4 lg:mt-6 space-y-5 lg:space-y-6 text-[#5A5566] ">
-                <p className="lg:text-lg leading-[150%]">
+                <p className="text-sm lg:text-lg leading-[150%]">
                   I am an experienced Mobile Engineer a 4-year track record in crafting mobile applications across
                   diverse sectors such as agrictech, fintech, e-commerce, real estate, and logistics.
                 </p>
-                <p className="font-times text-lg lg:text-[32px] leading-[130%]">
+                <p className="font-times text-sm lg:text-lg lg:text-[32px] leading-[130%]">
                   “I prioritize integrity, professionalism, and continuous improvement in everything I do.”
                 </p>
                 <p className="lg:text-lg leading-[150%]">
@@ -59,7 +59,7 @@ const AboutPage = () => {
                 {/* btn */}
                 <Button
                   icon={
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="28" viewBox="0 0 18 28" fill="none">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="25" viewBox="0 0 18 28" fill="none">
                       <rect
                         x="0.625"
                         y="1.50098"

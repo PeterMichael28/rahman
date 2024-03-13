@@ -26,7 +26,7 @@ const Button = ({
       {/* bg image */}
       {/* <img src={overlay} alt="bg-image" className="absolute left-1/2 bottom-0 -translate-x-1/2 object-contain" /> */}
 
-      <div className="relative z-20 inline-flex justify-center items-center gap-2.5 py-4 px-7 text-base text-white font-medium satoshi">
+      <div className="relative z-20 inline-flex justify-center items-center gap-2.5 px-[18px] lg:px-7 h-12 lg:h-14 lg:text-[18px] text-sm text-white font-medium">
         {children || label}
         {icon}
       </div>

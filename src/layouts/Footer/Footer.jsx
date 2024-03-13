@@ -58,7 +58,7 @@ const Footer = () => {
             </h2>
           </div>
 
-          <button className="py-[14px] px-6 flex items-center justify-center rounded-lg bg-white btn-shadow hover:bg-[#f1edfd] transition-all duration-300 text-primary font-">
+          <button className="px-7 h-14 lg:text-[18px] text-sm flex items-center justify-center rounded-lg transition-all duration-300 hover:text-primary text-primary-text font-medium btn-shadow">
             Contact me
           </button>
         </div>
@@ -83,7 +83,7 @@ const Footer = () => {
               />
             </svg>
             <p className="text-white hidden md:block mt-[72px]">
-              ©️ ABDULRAHMAN KOLE-IBRAHIM {new Date().getFullYear()}
+              &copy; ABDULRAHMAN KOLE-IBRAHIM {new Date().getFullYear()}
             </p>
           </div>
 
@@ -114,7 +114,7 @@ const Footer = () => {
             </nav>
           </div>
 
-          <p className="text-white lg:hidden relative z-20">©️ ABDULRAHMAN KOLE-IBRAHIM 2023</p>
+          <p className="text-white lg:hidden relative z-20">&copy; ABDULRAHMAN KOLE-IBRAHIM 2023</p>
         </div>
       </div>
     </footer>

@@ -39,7 +39,7 @@ const Header = () => {
     <>
       <header
         className={classNames(
-          "fixed top-0 bg-transparent w-full px-5 md:px-8 lg:px-0 py-3 z-20 transition-all duration-300",
+          "fixed top-0 bg-transparent w-full px-5 md:px-8 lg:px-0 py-3 z-40 transition-all duration-300",
           isScrolled && "glass"
         )}
       >
