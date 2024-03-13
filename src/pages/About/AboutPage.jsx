@@ -46,12 +46,14 @@ const AboutPage = () => {
                 <p className="font-times text-sm lg:text-lg lg:text-[32px] leading-[130%]">
                   “I prioritize integrity, professionalism, and continuous improvement in everything I do.”
                 </p>
-                <p className="lg:text-lg leading-[150%]">
+                <p className="text-sm lg:text-lg leading-[150%]">
                   Functionality is important to me with every product I build. I understand the role it plays in user
                   satisfaction and I employ my skills in team leadership, project management, front-end development to
                   ensure I deliver the best, consistently.
                 </p>
-                <p className="lg:text-lg leading-[150%]">I am always learning how to be better and do better.</p>
+                <p className="text-sm lg:text-lg leading-[150%]">
+                  I am always learning how to be better and do better.
+                </p>
               </div>
 
               {/* button */}

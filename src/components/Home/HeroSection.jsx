@@ -38,11 +38,11 @@ const HeroSection = () => {
           user experience to ensure positive company impact and success.
         </p>
 
-        <div className="flex justify-center items-center gap-4 mt-7">
+        <div className="flex justify-between lg:justify-center items-center lg:gap-4 mt-7">
           {chipsContent.map((chip, i) => (
             <div
               key={i}
-              className="border border-border bg-onTertiary  lg:px-5 px-3 py-3 rounded-full text-xs lg:text-sm text-primary-text"
+              className="border border-border bg-onTertiary  lg:px-5 px-4 py-3 rounded-full lg:text-sm text-xs text-primary-text"
             >
               {chip}
             </div>
