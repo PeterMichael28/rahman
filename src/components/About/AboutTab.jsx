@@ -1,28 +1,32 @@
 import { useState } from "react";
 import { classNames } from "~/utilities/classNames";
+import { Link } from "react-scroll";
 
 const AboutTab = () => {
-  const [activeTab, setActiveTab] = useState("#about");
+  const [activeTab, setActiveTab] = useState("about");
   const tabLists = [
     {
       title: "About me",
-      href: "#about",
+      href: "about",
     },
     {
       title: "Experience",
-      href: "#experience",
+      href: "experience",
     },
     {
       title: "What sets me apart",
-      href: "#Whatsetsmeapart",
+      href: "whatsetsmeapart",
     },
   ];
 
   return (
-    <div className="col-span-3 hidden lg:block w-full space-y-5">
+    <div className="col-span-3 hidden lg:block w-full space-y-5 h-full">
       {tabLists.map((tab) => (
-        <div
+        <Link
           key={tab.title}
+          smooth
+          duration={500}
+          to={tab.href}
           className={classNames(
             "w-full py-3 px-6 flex items-center border border-[#f1f0f5] rounded-lg text-[#5A5566] cursor-pointer transition-all duration-300",
             activeTab === tab.href && "bg-[#F1ECFD] text-primary font-bold border-none justify-between"
@@ -39,7 +43,7 @@ const AboutTab = () => {
               <path d="M3.14227 3.79272L11.3919 12.0423" stroke="#7444EE" strokeWidth="0.8" />
             </svg>
           )}
-        </div>
+        </Link>
       ))}
     </div>
   );
