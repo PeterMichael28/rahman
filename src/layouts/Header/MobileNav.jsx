@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 import { classNames } from "~/utilities/classNames";
 import { socials } from "../Footer/Footer";
+import React from "react";
 
 const MobileNav = ({ showMobile, setShowMobile, list }) => {
   return (
@@ -9,11 +10,10 @@ const MobileNav = ({ showMobile, setShowMobile, list }) => {
       className={`w-full min-h-[100vh] z-50 mobileNav-bg fixed top-[60px] pt-8 px-5 lg:hidden ${showMobile ? "right-0" : "-right-full"} transition-all duration-500`}
     >
       <div className="space-y-[20px] flex flex-col items-start">
-        {list.map((li) => (
-          <>
+        {list.map((li, i) => (
+          <React.Fragment key={i}>
             <Link
               to={li.href}
-              key={li.label}
               onClick={() => setShowMobile(false)}
               className={classNames("text-[#6f697E] text-sm ", li.active && "font-bold text-primary")}
             >
@@ -22,7 +22,7 @@ const MobileNav = ({ showMobile, setShowMobile, list }) => {
 
             {/* divider */}
             <div className="h-[1px] w-full bg-[#f7f6f9]" />
-          </>
+          </React.Fragment>
         ))}
         <button className={classNames("text-[#6f697E] text-sm ")}>Resume</button>
         <div className="h-[1px] w-full bg-[#f7f6f9]" />
@@ -32,11 +32,8 @@ const MobileNav = ({ showMobile, setShowMobile, list }) => {
       <div className="mt-[30px]">
         <p className="text-[#6f697E] text-sm">Socials</p>
         <div className="flex gap-x-5 items-center mt-4">
-          {socials.map((social) => (
-            <span
-              key={social.title}
-              className="size-9 rounded-full bg-[#f1ecfd] flex justify-center items-center text-primary"
-            >
+          {socials.map((social, i) => (
+            <span key={i} className="size-9 rounded-full bg-[#f1ecfd] flex justify-center items-center text-primary">
               {social.icon}
             </span>
           ))}

@@ -22,7 +22,7 @@ export default function AppRouter() {
       children: [
         { index: true, element: <HomePage /> },
         { path: "about", element: <AboutPage /> },
-        { path: "work/:id", element: <SelectedWork /> },
+        { path: "works/:id", element: <SelectedWork /> },
       ],
 
       errorElement: <ErrorDisplay />,

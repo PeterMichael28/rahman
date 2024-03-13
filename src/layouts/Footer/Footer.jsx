@@ -58,7 +58,7 @@ const Footer = () => {
             </h2>
           </div>
 
-          <button className="px-7 h-14 lg:text-[18px] text-sm flex items-center justify-center rounded-lg transition-all duration-300 hover:text-primary text-primary-text font-medium btn-shadow">
+          <button className="px-7 h-12 lg:h-14 lg:text-[18px] text-sm flex items-center justify-center rounded-lg transition-all duration-300 hover:text-primary text-primary-text font-medium btn-shadow">
             Contact me
           </button>
         </div>

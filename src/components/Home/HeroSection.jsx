@@ -1,7 +1,5 @@
-import contactIcon from "~/assets/images/contact-icon.png";
 import heroBg from "~/assets/images/hero-bg.png";
 import star from "~/assets/images/black-star.png";
-import spiral from "~/assets/images/spiral.png";
 import Button from "../Button/Button";
 
 const HeroSection = () => {
@@ -20,11 +18,23 @@ const HeroSection = () => {
         />
 
         {/* spiral image */}
-        <img
-          src={spiral}
-          alt="spiral-img"
-          className="absolute object-contain lg:bottom-10 lg:right-36 right-16 -bottom-12 size-16 lg:size-20"
-        />
+        <div className="absolute lg:bottom-10 lg:right-36 right-16 -bottom-12 lg:size-20">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="128"
+            height="90"
+            viewBox="0 0 128 90"
+            fill="none"
+            className="lg:w-[63px] w-[50px]"
+          >
+            <path
+              d="M125.688 29.6656C93.2891 65.648 77.3093 33.3157 75.9495 22.2517C75.1736 15.9391 76.1387 13.4599 76.5837 11.789C80.166 -1.66191 93.6624 2.05619 98.3445 10.3303C122.793 53.5362 64.6265 65.9046 41.0322 46.6216C34.6611 41.0942 29.9255 29.9813 46.0166 24.1338C71.9398 14.7133 85.305 66.0268 25.1167 72.436C9.75737 74.0716 0.758136 58.3052 4.19252 48.6259C8.94614 35.2287 24.9514 34.0281 26.4595 52.725C28.4973 77.9884 15.4746 87.4084 2.94426 87.3689"
+              stroke="#3C8369"
+              strokeWidth="4"
+              strokeLinecap="round"
+            />
+          </svg>
+        </div>
 
         {/* header text */}
 
@@ -33,12 +43,12 @@ const HeroSection = () => {
           <span>Developer</span>
         </h1>
 
-        <p className="max-w-2xl px-2 mx-auto text-tertiary my-4 text-left max-sm:text-sm lg:text-center leading-[150%] tracking-[0.04px]">
+        <p className="max-w-2xl px-2 mx-auto text-tertiary mt-4 text-left max-sm:text-sm lg:text-center leading-[150%] tracking-[0.04px]">
           A dedicated and experienced mobile engineer focused on building functional products embedded with top-notch
           user experience to ensure positive company impact and success.
         </p>
 
-        <div className="flex justify-between lg:justify-center items-center lg:gap-4 mt-7">
+        <div className="flex justify-between lg:justify-center items-center lg:gap-4 mt-6">
           {chipsContent.map((chip, i) => (
             <div
               key={i}
@@ -49,7 +59,7 @@ const HeroSection = () => {
           ))}
         </div>
 
-        <div className="w-full lg:justify-center flex mt-12 ">
+        <div className="w-full lg:justify-center flex mt-8 lg:mt-12 ">
           {/* btn */}
           <Button
             icon={

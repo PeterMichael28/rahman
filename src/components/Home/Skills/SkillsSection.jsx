@@ -1,6 +1,7 @@
 import skillsBgLarge from "~/assets/images/skills/bgSkills-lg.png";
 import skillsBgSmall from "~/assets/images/skills/bgSkills-sm.png";
 import SkillsListsLarge from "~/assets/images/skills/SkillsLists-lg.png";
+import SkillsListsSm from "~/assets/images/skills/skills-sm.png";
 
 import star1 from "~/assets/images/skills/skillsStar1.png";
 import star2 from "~/assets/images/skills/skillsStar2.png";
@@ -24,7 +25,7 @@ const SkillsSection = () => {
 
           {/* skill text */}
           <div className="relative z-20">
-            <h3 className="text-[40px] font-medium leading-[120%] text-white flex justify-start  flex-col gap-y-2">
+            <h3 className="text-[40px] font-medium leading-[120%] text-white flex justify-start  flex-col ">
               <span>Some of my</span>
               <span>Technical SKills</span>
             </h3>
@@ -36,29 +37,29 @@ const SkillsSection = () => {
       </div>
 
       {/* small screen */}
-      <div className="w-full px-5 pt-7 pb-4 relative h-fit md:hidden">
-        <img src={skillsBgSmall} alt="" className="w-full h-full max-h-[479px]" />
+      <div className="w-full px-5 pb-4 relative h-fit md:hidden border">
+        <img src={skillsBgSmall} alt="" className="w-full max-h-[469px]" />
 
-        <div className="absolute inset-0 w-full h-full flex flex-col justify-between px-12 gap-y-6 pt-10 pb-14">
+        <div className="absolute inset-0 w-full h-full flex flex-col justify-center px-12 gap-y-6 pt-10 pb-14">
           {/* star1 */}
-          <img src={star1} alt="star" className="absolute object-contain top-[8rem] left-8 size-32 opacity-35" />
+          <img src={star1} alt="star" className="absolute object-contain top-[6.5rem] left-8 size-32 opacity-35" />
 
           {/* star2 */}
-          <img src={star2} alt="star" className="absolute object-contain top-16 left-16 opacity-45 size-14" />
+          <img src={star2} alt="star" className="absolute object-contain top-[41px] left-14 opacity-45 size-14 " />
 
           {/* silver star */}
-          <img src={silverStar} alt="star" className="absolute object-contain top-20 left-36 size-14" />
+          <img src={silverStar} alt="star" className="absolute object-contain top-[45px] left-36 size-14 opacity-55" />
 
           {/* skill text */}
           <div className="relative z-20">
-            <h3 className="text-[30px] font-medium leading-[120%] text-white flex justify-start  flex-col gap-y-3 text-left mt-10">
+            <h3 className="text-[28px] font-medium leading-[120%] text-white flex justify-start  flex-col  text-left mt-10">
               <span>Some of my</span>
               <span className="text-stroke ">Technical Skills</span>
             </h3>
           </div>
 
           {/* skills collection */}
-          <img src={SkillsListsLarge} alt="image" className="" />
+          <img src={SkillsListsSm} alt="image" className="" />
         </div>
       </div>
     </section>

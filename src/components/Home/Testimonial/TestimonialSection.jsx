@@ -44,7 +44,7 @@ const TestimonialSection = () => {
 export default TestimonialSection;
 
 const SingleTestimonialCard = ({ data }) => (
-  <div className="bg-[#faf9fb] border border-[#f6f6f9] rounded-[20px] flex justify-center items-start px-7  gap-y-4 flex-col h-[232px] pb-5">
+  <div className="bg-[#faf9fb] border border-[#f6f6f9] rounded-[20px] flex justify-center items-start p-5 lg:p-8  gap-y-4 flex-col ">
     <div className="flex items-center justify-start gap-3 ">
       <img src={data?.image} alt="image" className="rounded-full object-contain size-10 lg:size-12" />
       <div>
