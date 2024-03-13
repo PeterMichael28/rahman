@@ -53,7 +53,7 @@ const Footer = () => {
             <p className="text-[#EAE3FC] text-xl lg:text-3xl font-medium leading-[116%] tracking-[-0.36px]">
               Ready to build your product?
             </p>
-            <h2 className="text-white text-3xl lg:text-[54px] font-medium tracking-[-0.56px] mt-3 leading-[116%]">
+            <h2 className="text-white text-3xl lg:text-[54px] font-medium tracking-[-0.56px]  leading-[116%]">
               Lets work together
             </h2>
           </div>
