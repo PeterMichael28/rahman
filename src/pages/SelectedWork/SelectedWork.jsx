@@ -66,7 +66,7 @@ const SelectedWork = () => {
                 <p className="text-primary-text text-lg lg:text-2xl leading-[120%] font-medium">Technology</p>
                 <div>
                   {currentWork.tech.map((tech, i) => (
-                    <span key={i} className="text-sm lg:text-base leading-[140%] block">
+                    <span key={i} className="text-sm lg:text-base leading-[140%] block mb-1">
                       {tech}
                     </span>
                   ))}

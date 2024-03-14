@@ -37,18 +37,18 @@ const SkillsSection = () => {
       </div>
 
       {/* small screen */}
-      <div className="w-full px-5 pb-4 relative h-fit md:hidden border">
-        <img src={skillsBgSmall} alt="" className="w-full max-h-[469px]" />
+      <div className="w-full px-5 pb-4 relative h-fit md:hidden max-h-[409px]">
+        <img src={skillsBgSmall} alt="" className="w-full h-full absolute inset-0" />
 
-        <div className="absolute inset-0 w-full h-full flex flex-col justify-center px-12 gap-y-6 pt-10 pb-14">
+        <div className="w-full h-full flex flex-col relative justify-center px-3 gap-y-6 pt-1 pb-14">
           {/* star1 */}
-          <img src={star1} alt="star" className="absolute object-contain top-[6.5rem] left-8 size-32 opacity-35" />
+          <img src={star1} alt="star" className="absolute object-contain top-[5.5rem] left-1 size-32 opacity-35" />
 
           {/* star2 */}
-          <img src={star2} alt="star" className="absolute object-contain top-[41px] left-14 opacity-45 size-14 " />
+          <img src={star2} alt="star" className="absolute object-contain top-[21px] left-5 opacity-45 size-14 " />
 
           {/* silver star */}
-          <img src={silverStar} alt="star" className="absolute object-contain top-[45px] left-36 size-14 opacity-55" />
+          <img src={silverStar} alt="star" className="absolute object-contain top-[40px] left-24 size-14 opacity-55" />
 
           {/* skill text */}
           <div className="relative z-20">
@@ -59,7 +59,7 @@ const SkillsSection = () => {
           </div>
 
           {/* skills collection */}
-          <img src={SkillsListsSm} alt="image" className="" />
+          <img src={SkillsListsSm} alt="image" className="h-full" />
         </div>
       </div>
     </section>

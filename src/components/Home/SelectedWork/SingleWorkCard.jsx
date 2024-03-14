@@ -34,7 +34,7 @@ const SingleWorkCard = ({ data }) => {
           to={`/works/${encodeURIComponent(data.title)}`}
           className="w-[90%] py-4 px-5 lg:px-8 lg:py-5 rounded-full case_study_blur absolute bottom-4 lg:bottom-7 mx-auto text-white left-1/2 -translate-x-1/2 flex justify-between items-center lg:translate-y-[200%] lg:group-hover:translate-y-0 transition-all duration-300"
         >
-          <p className="text-white text-sm lg:text-lg font-medium">Read Case Study</p>
+          <p className="text-white text-sm lg:text-lg font-medium">See Details</p>
 
           <svg xmlns="http://www.w3.org/2000/svg" width="28" height="20" viewBox="0 0 28 20" fill="none">
             <circle cx="10.75" cy="10" r="9.375" stroke="white" strokeWidth="1.25" />
