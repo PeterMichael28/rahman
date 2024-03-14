@@ -57,8 +57,8 @@ const Header = () => {
             </Link>
 
             <div className="px-4 py-2 flex justify-center items-center gap-2 rounded-[20px] bg-onSecondary text-secondary font-medium text-sm">
-              <span className="text-lg">{icons.dot}</span>
-              <span>Open to work</span>
+              <span className="text-lg animate-pulse">{icons.dot}</span>
+              <span className="animate-">Open to work</span>
             </div>
           </div>
 

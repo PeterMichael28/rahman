@@ -24,13 +24,13 @@ const AboutPage = () => {
 
             {/* header */}
             <div>
-              <h1 className="text-primary-text text-[32px] lg:text-[56px] font-bold mt-5 leading-normal">
+              <h1 className="text-primary-text text-[25px] lg:text-[50px] font-bold mt-5 leading-normal">
                 Hi I’m{" "}
                 <span className=" relative max-lg:flex overflow-hidden max-w-fit justify-start items-start">
-                  <span className="relative z-10 mr-1 text-[#F37F14]">Rahman Kole-Ibrahim </span>
+                  <span className="relative z-10 mr-1 text-[#F37F14]">Abdur Rahman Kole-Ibrahim </span>
                   <span className="absolute bottom-[6px] left-0 w-full -z-10">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="586" height="19" viewBox="0 0 586 19" fill="none">
-                      <path d="M12.6582 2.67841L586 0V15.7357L0 19L12.6582 2.67841Z" fill="#FDEFE2" />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="665" height="19" viewBox="0 0 665 19" fill="none">
+                      <path d="M12.6582 2.67841L665 0V15.7357L0 19L12.6582 2.67841Z" fill="#FDEFE2" />
                     </svg>
                   </span>
                   <span className="bg-white relative z-10">{""}.</span>

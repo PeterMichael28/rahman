@@ -117,11 +117,11 @@ const SelectedWork = () => {
         </div>
 
         {/* divider */}
-        <div className="w-full bg-[#f7f6f9] h-[2px] mt-8 lg:mt-14" />
+        <div className="w-full bg-[#f7f6f9] h-[2px] my-[64px] lg:my-[88px]" />
       </section>
 
       {/* other projects */}
-      <div className="mt-14 lg:mt-20">
+      <div className="">
         <h3 className="text-[32px] lg:text-[56px] font-bold leading-[140%]">Other Projects</h3>
 
         <div className="mt-8 lg:mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-start gap-x-6 gap-y-8">
