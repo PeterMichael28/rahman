@@ -78,7 +78,9 @@ const AboutPage = () => {
                     </svg>
                   }
                 >
-                  Download Resume
+                  <a href="/ABDULRAHMANRESUME.pdf" download="ABDULRAHMANRESUME.pdf">
+                    Download Resume
+                  </a>
                 </Button>
               </div>
             </div>

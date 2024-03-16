@@ -72,7 +72,7 @@ const HeroSection = () => {
               </svg>
             }
           >
-            Contact me
+            <a href="mailto:koleibrahimabdulrahman@gmail.com">Contact me</a>
           </Button>
         </div>
       </div>
