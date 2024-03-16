@@ -9,21 +9,21 @@ const TestimonialSection = () => {
       title: "Product Designer, Jeetar",
       image: img1,
       content:
-        "Rahman is a delight to work with. He ensures his deliverables are quality and timely. He jokes around but is very passionate about the integrity of his work. He is an invaluable team player.",
+        "Abdur Rahman is a delight to work with. He ensures his deliverables are quality and timely. He jokes around but is very passionate about the integrity of his work. He is an invaluable team player.",
     },
     {
       name: "Abimbola Adegbite",
       title: "Chief Security Officer (CSO) Reyts",
       image: img2,
       content:
-        "Rahman understands what it takes to build a product that works and is focused on ensuring every product he works on delivers both for the company and the users.",
+        "Abdur Rahman understands what it takes to build a product that works and is focused on ensuring every product he works on delivers both for the company and the users.",
     },
     {
       name: "Adekunle Salau",
       title: "CEO Automata Associate",
       image: img2,
       content:
-        "Rahman is technically competent in what he does, he is very mindful of quality and delivers his project to quality and time. He also provides invaluable feedback on how to improve the design of the solutions he worked on.",
+        "Abdur Rahman is technically competent in what he does, he is very mindful of quality and delivers his project to quality and time. He also provides invaluable feedback on how to improve the design of the solutions he worked on.",
     },
   ];
   return (

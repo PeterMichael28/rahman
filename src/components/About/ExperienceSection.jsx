@@ -18,6 +18,10 @@ const ExperienceSection = () => {
       title: "Infusync Digital Limited (Mobile Engineer)",
       duration: "May 2020 - Aug 2021",
     },
+    {
+      title: "Chams Plc (Software Engineer)",
+      duration: "December 2018- December 2019",
+    },
   ];
   return (
     <section id="experience">
