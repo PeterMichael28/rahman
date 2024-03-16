@@ -25,7 +25,7 @@ const SelectedWork = () => {
           height="19"
           viewBox="0 0 28 19"
           fill="none"
-          className="lg:w-26px] lg:h-[17px] w-[22px] h-[15px]"
+          className="lg:w-[26px] lg:h-[17px] w-[22px] h-[15px]"
         >
           <rect x="10.2183" y="1.125" width="16.75" height="16.75" rx="3.375" stroke="#7444EE" strokeWidth="1.25" />
           <path
@@ -58,7 +58,7 @@ const SelectedWork = () => {
               {/* role */}
               <div className="flex flex-col items-start gap-y-2">
                 <p className="text-primary-text font-medium text-lg lg:text-2xl leading-[120%]">Role</p>
-                <span className="text-sm lg:text-base leading-[140%]">{currentWork.role}</span>
+                <span className="text-sm lg:text-base leading-[140%] text-[#5A5566]">{currentWork.role}</span>
               </div>
 
               {/* Tech */}
@@ -66,7 +66,7 @@ const SelectedWork = () => {
                 <p className="text-primary-text text-lg lg:text-2xl leading-[120%] font-medium">Technology</p>
                 <div>
                   {currentWork.tech.map((tech, i) => (
-                    <span key={i} className="text-sm lg:text-base leading-[140%] block mb-1">
+                    <span key={i} className="text-sm lg:text-base leading-[140%] block mb-1 text-[#5A5566]">
                       {tech}
                     </span>
                   ))}
@@ -76,13 +76,13 @@ const SelectedWork = () => {
               {/* Project Duration */}
               <div className="flex flex-col items-start gap-y-2">
                 <p className="text-primary-text font-medium text-lg lg:text-2xl leading-[120%]">Project Duration</p>
-                <span className="text-sm lg:text-base leading-[140%]">{currentWork.duration}</span>
+                <span className="text-sm lg:text-base leading-[140%] text-[#5A5566]">{currentWork.duration}</span>
               </div>
 
               {/* Deliverable */}
               <div className="flex flex-col items-start gap-y-2">
                 <p className="text-primary-text text-lg lg:text-2xl font-medium leading-[120%]">Deliverable</p>
-                <span className="text-sm lg:text-base leading-[140%]">{currentWork.deliverable}</span>
+                <span className="text-sm lg:text-base leading-[140%] text-[#5A5566]">{currentWork.deliverable}</span>
               </div>
             </div>
 

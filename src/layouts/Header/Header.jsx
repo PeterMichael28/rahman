@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import icons from "~/assets/js/icons";
 import { classNames } from "~/utilities/classNames";
 import MobileNav from "./MobileNav";
+import OpenToWork from "./OpenToWork";
 
 const Header = () => {
   const location = useLocation();
@@ -56,10 +57,11 @@ const Header = () => {
               </svg>
             </Link>
 
-            <div className="px-4 py-2 flex justify-center items-center gap-2 rounded-[20px] bg-onSecondary text-secondary font-medium text-sm">
+            {/* <div className="px-4 py-2 flex justify-center items-center gap-2 rounded-[20px] bg-onSecondary text-secondary font-medium text-sm">
               <span className="text-lg animate-pulse">{icons.dot}</span>
               <span className="animate-">Open to work</span>
-            </div>
+            </div> */}
+            <OpenToWork />
           </div>
 
           {/* desktop navigation */}

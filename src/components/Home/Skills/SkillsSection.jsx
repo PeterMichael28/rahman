@@ -38,7 +38,7 @@ const SkillsSection = () => {
 
       {/* small screen */}
       <div className="px-4 md:hidden">
-        <div className="w-full px-5 py-4 relative  h-fit  max-h-[409px]">
+        <div className="w-full px-3 py-4 relative  h-fit  max-h-[389px]">
           <img src={skillsBgSmall} alt="" className="w-full h-full absolute inset-0" />
 
           <div className="w-full h-full flex flex-col relative justify-center px-3 gap-y-6 pt-1 pb-14">
@@ -57,7 +57,7 @@ const SkillsSection = () => {
 
             {/* skill text */}
             <div className="relative z-20">
-              <h3 className="text-[28px] font-medium leading-[120%] text-white flex justify-start  flex-col  text-left mt-10">
+              <h3 className="text-[28px] font-medium leading-[120%] text-white flex justify-start  flex-col  text-left mt-2">
                 <span>Some of my</span>
                 <span className="text-stroke ">Technical Skills</span>
               </h3>
