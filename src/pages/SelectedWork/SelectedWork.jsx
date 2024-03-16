@@ -2,10 +2,12 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import { workData } from "~/assets/js/workData";
 import Button from "~/components/Button/Button";
 import SectionHeader from "~/components/SectionHeader";
+import { useMediaQuery } from "~/hooks/useMediaQuery";
 
 const SelectedWork = () => {
   const { id } = useParams();
   const navigate = useNavigate();
+  const isSmallScreen = useMediaQuery("750px");
   const currentWork = workData.find((data) => data.title == id);
   const otherWork = workData.filter((data) => data.title !== id);
 
@@ -38,7 +40,11 @@ const SelectedWork = () => {
 
       <section className="mt-8">
         {/* banner */}
-        <img src={currentWork.images[0]} alt="cover-img" className="w-full h-[180px] lg:h-[600px]" />
+        <img
+          src={isSmallScreen ? currentWork.images[1] : currentWork.images[0]}
+          alt="cover-img"
+          className="w-full h-[246px] lg:h-[600px]"
+        />
 
         <div className="mt-10 lg:mt-16">
           <h2 className="text-[32px] lg:text-[56px] text-primary-text font-bold leading-[140%]">{currentWork.title}</h2>
@@ -110,7 +116,7 @@ const SelectedWork = () => {
 
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 mt-6 lg:mt-8 gap-x-[18px] gap-y-6">
               {currentWork.images.map((img, i) => {
-                if (i > 0) {
+                if (i > 1) {
                   return <img key={i} src={img} alt="selected-work" className="h-320px] lg:h-[450px] w-full" />;
                 }
               })}

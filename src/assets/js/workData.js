@@ -1,5 +1,6 @@
 import jeetarMainImg from "~/assets/images/jeetar/Jeetar1.png";
 import jeetar2 from "~/assets/images/jeetar/jeetar2.png";
+import jeetar2sm from "~/assets/images/jeetar/jeetar2sm.png";
 import jeetar3 from "~/assets/images/jeetar/jeetar3.png";
 import jeetar4 from "~/assets/images/jeetar/jeetar4.png";
 import jeetar5 from "~/assets/images/jeetar/jeetar5.png";
@@ -18,6 +19,7 @@ import jeetar17 from "~/assets/images/jeetar/jeetar17.png";
 
 import roppiMainImg from "~/assets/images/roppi/Roppi1.png";
 import roppi2 from "~/assets/images/roppi/roppi2.png";
+import roppi2sm from "~/assets/images/roppi/roppi2sm.png";
 import roppi3 from "~/assets/images/roppi/roppi3.png";
 import roppi4 from "~/assets/images/roppi/roppi4.png";
 import roppi5 from "~/assets/images/roppi/roppi5.png";
@@ -41,6 +43,7 @@ import roppi22 from "~/assets/images/roppi/roppi22.png";
 
 import retysMainImg from "~/assets/images/retys/retys1.png";
 import retys2 from "~/assets/images/retys/reyts2.png";
+import retys2sm from "~/assets/images/retys/reyts2sm.png";
 import retys3 from "~/assets/images/retys/reyts3.png";
 import retys4 from "~/assets/images/retys/reyts4.png";
 import retys5 from "~/assets/images/retys/reyts5.png";
@@ -64,6 +67,7 @@ import retys22 from "~/assets/images/retys/reyts22.png";
 
 import faramoveMainImg from "~/assets/images/faramove/faramove1.png";
 import faramove2 from "~/assets/images/faramove/faramove2.png";
+import faramove2sm from "~/assets/images/faramove/faramove2sm.png";
 import faramove3 from "~/assets/images/faramove/faramove3.png";
 import faramove4 from "~/assets/images/faramove/faramove4.png";
 import faramove5 from "~/assets/images/faramove/faramove5.png";
@@ -98,6 +102,7 @@ export const workData = [
     bgColor: "#7444ee",
     images: [
       jeetar2,
+      jeetar2sm,
       jeetar3,
       jeetar4,
       jeetar5,
@@ -135,6 +140,7 @@ export const workData = [
     bgColor: "#FE635C",
     images: [
       roppi2,
+      roppi2sm,
       roppi3,
       roppi4,
       roppi5,
@@ -177,6 +183,7 @@ export const workData = [
     bgColor: "#F37F14",
     images: [
       retys2,
+      retys2sm,
       retys3,
       retys4,
       retys5,
@@ -220,6 +227,7 @@ export const workData = [
     bgColor: "#3C8369",
     images: [
       faramove2,
+      faramove2sm,
       faramove3,
       faramove4,
       faramove5,

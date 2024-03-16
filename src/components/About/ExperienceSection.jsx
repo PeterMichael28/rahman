@@ -34,7 +34,7 @@ const ExperienceSection = () => {
             className="w-full py-4 px-5 lg:py-6 lg:px-8 flex flex-col items-start gap-3 rounded-lg border border-[#f4f3f7] leading-[120%]"
           >
             <span className="text-primary-text  lg:text-2xl font-medium">{experience.title}</span>
-            <span className="text-sm lg:text-lg">{experience.duration}</span>
+            <span className="text-sm lg:text-lg text-[#5A5566]">{experience.duration}</span>
           </div>
         ))}
       </div>
