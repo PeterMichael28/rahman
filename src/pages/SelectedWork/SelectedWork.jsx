@@ -97,7 +97,9 @@ const SelectedWork = () => {
                   </svg>
                 }
               >
-                Open Project
+                <a href={currentWork.liveUrl} target="_blank" rel="noreferrer">
+                  Open Project
+                </a>
               </Button>
             </div>
           </div>

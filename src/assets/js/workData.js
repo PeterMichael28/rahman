@@ -118,9 +118,9 @@ export const workData = [
     tech: ["Flutter", "Google Maps", "Firebase", "Algolia"],
     duration: "3 months",
     deliverable: "Mobile App",
-    liveUrl: "/",
     subtextColor: "#E3DAFC",
     otherProjectText: "An app for grocery shopping that offers quick, on-demand delivery in less than 20 minutes.",
+    liveUrl: "https://play.google.com/store/apps/details?id=com.jeetar.superapp",
   },
 
   {
@@ -160,7 +160,7 @@ export const workData = [
     tech: ["Flutter", "Google Maps", "Firebase", "Pusher"],
     duration: "5 months",
     deliverable: "Mobile App",
-    liveUrl: "/",
+    liveUrl: "https://onelink.to/xqern9",
     subtextColor: "#FFEBEB",
     otherProjectText: "Roppi is a grocery and food shopping application",
   },
@@ -202,7 +202,7 @@ export const workData = [
     tech: ["Flutter", "Firebase", "Sentry", "Codemagic"],
     duration: "1 month",
     deliverable: "Mobile App",
-    liveUrl: "/",
+    liveUrl: "https://play.google.com/store/apps/details?id=com.reyts.exchange&pcampaignid=web_share",
     subtextColor: "#FDEFE2",
     otherProjectText:
       "I collaborated with the product management and design teams to understand how to turn user solutions to functional products.",
@@ -245,7 +245,7 @@ export const workData = [
     tech: ["Google Maps", "Firebase", "Codemagic", "Agora, Socket.io"],
     duration: "6 month",
     deliverable: "Mobile App",
-    liveUrl: "/",
+    liveUrl: "https://onelink.to/9xn7wq",
     subtextColor: "#EAF6F1",
     otherProjectText:
       "A mobile logistics solution designed to assist customers in requesting the transportation of their choosing to designated areas.",
