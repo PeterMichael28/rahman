@@ -37,29 +37,35 @@ const SkillsSection = () => {
       </div>
 
       {/* small screen */}
-      <div className="w-full px-5 pb-4 relative h-fit md:hidden max-h-[409px]">
-        <img src={skillsBgSmall} alt="" className="w-full h-full absolute inset-0" />
+      <div className="px-4 md:hidden">
+        <div className="w-full px-5 py-4 relative  h-fit  max-h-[409px]">
+          <img src={skillsBgSmall} alt="" className="w-full h-full absolute inset-0" />
 
-        <div className="w-full h-full flex flex-col relative justify-center px-3 gap-y-6 pt-1 pb-14">
-          {/* star1 */}
-          <img src={star1} alt="star" className="absolute object-contain top-[5.5rem] left-1 size-32 opacity-35" />
+          <div className="w-full h-full flex flex-col relative justify-center px-3 gap-y-6 pt-1 pb-14">
+            {/* star1 */}
+            <img src={star1} alt="star" className="absolute object-contain top-[5.5rem] left-1 size-32 opacity-35" />
 
-          {/* star2 */}
-          <img src={star2} alt="star" className="absolute object-contain top-[21px] left-5 opacity-45 size-14 " />
+            {/* star2 */}
+            <img src={star2} alt="star" className="absolute object-contain top-[21px] left-5 opacity-45 size-14 " />
 
-          {/* silver star */}
-          <img src={silverStar} alt="star" className="absolute object-contain top-[40px] left-24 size-14 opacity-55" />
+            {/* silver star */}
+            <img
+              src={silverStar}
+              alt="star"
+              className="absolute object-contain top-[40px] left-24 size-14 opacity-55"
+            />
 
-          {/* skill text */}
-          <div className="relative z-20">
-            <h3 className="text-[28px] font-medium leading-[120%] text-white flex justify-start  flex-col  text-left mt-10">
-              <span>Some of my</span>
-              <span className="text-stroke ">Technical Skills</span>
-            </h3>
+            {/* skill text */}
+            <div className="relative z-20">
+              <h3 className="text-[28px] font-medium leading-[120%] text-white flex justify-start  flex-col  text-left mt-10">
+                <span>Some of my</span>
+                <span className="text-stroke ">Technical Skills</span>
+              </h3>
+            </div>
+
+            {/* skills collection */}
+            <img src={SkillsListsSm} alt="image" className="h-full" />
           </div>
-
-          {/* skills collection */}
-          <img src={SkillsListsSm} alt="image" className="h-full" />
         </div>
       </div>
     </section>

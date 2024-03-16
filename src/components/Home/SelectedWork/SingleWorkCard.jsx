@@ -25,8 +25,8 @@ const SingleWorkCard = ({ data }) => {
         </p>
 
         {/* phone */}
-        <div className="flex items-center justify-center lg:mt-10 mt-7 max-sm:px-10">
-          <img src={data?.frontImage} alt="image" className="h-[315px] lg:h-[400px]" />
+        <div className="flex items-center justify-center lg:mt-9 mt-7 max-sm:px-10">
+          <img src={data?.frontImage} alt="image" className="h-[315px] lg:h-[370px]" />
         </div>
 
         {/* hover card */}

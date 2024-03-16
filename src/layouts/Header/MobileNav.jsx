@@ -33,9 +33,14 @@ const MobileNav = ({ showMobile, setShowMobile, list }) => {
         <p className="text-[#6f697E] text-sm">Socials</p>
         <div className="flex gap-x-5 items-center mt-4">
           {socials.map((social, i) => (
-            <span key={i} className="size-9 rounded-full bg-[#f1ecfd] flex justify-center items-center text-primary">
+            <a
+              key={i}
+              href={social.url}
+              target="_blank"
+              className="size-9 rounded-full bg-[#f1ecfd] flex justify-center items-center text-primary" rel="noreferrer"
+            >
               {social.icon}
-            </span>
+            </a>
           ))}
         </div>
       </div>

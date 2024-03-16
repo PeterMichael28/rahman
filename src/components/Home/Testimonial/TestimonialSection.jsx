@@ -13,14 +13,14 @@ const TestimonialSection = () => {
     },
     {
       name: "Abimbola Adegbite",
-      title: "CTO, Hush Africa",
+      title: "Chief Security Officer (CSO) Reyts",
       image: img2,
       content:
         "Rahman understands what it takes to build a product that works and is focused on ensuring every product he works on delivers both for the company and the users.",
     },
     {
-      name: "Adekunle Fatai",
-      title: "CEO, Automata Associates",
+      name: "Adekunle Salau",
+      title: "CEO Automata Associate",
       image: img2,
       content:
         "Rahman is technically competent in what he does, he is very mindful of quality and delivers his project to quality and time. He also provides invaluable feedback on how to improve the design of the solutions he worked on.",
@@ -52,6 +52,6 @@ const SingleTestimonialCard = ({ data }) => (
         <p className="text-[#7B748B] text-sm font-medium">{data?.title}</p>
       </div>
     </div>
-    <p className="text-[#5A5566] text-[12px] lg:text-sm leading-[160%]">{data?.content}</p>
+    <p className="text-[#5A5566] text-xs lg:text-sm leading-[160%]">{data?.content}</p>
   </div>
 );

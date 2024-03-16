@@ -9,7 +9,7 @@ export const socials = [
   {
     title: "LinkedIn",
     icon: icons.linkedIn,
-    url: "/",
+    url: "https://www.linkedin.com/in/abdul-rahman-kole-ibrahim-0b488715b/",
   },
   {
     title: "Twitter",
@@ -19,7 +19,7 @@ export const socials = [
   {
     title: "Github",
     icon: icons.github,
-    url: "",
+    url: "https://github.com/ABDULRAHMANBAYO",
   },
 ];
 
@@ -51,10 +51,10 @@ const Footer = () => {
         <div className="max-w-[1200px] w-full mx-auto px-5 lg:px-0 pt-10 lg:pt-20">
           <div className="flex flex-col lg:flex-row items-start lg:justify-between lg:items-center gap-y-4 relative z-10 w-full">
             <div>
-              <p className="text-[#EAE3FC] text-xl lg:text-3xl font-medium leading-[116%] tracking-[-0.36px]">
+              <p className="text-[#EAE3FC] text-xl lg:text-3xl font-normal leading-[126%] tracking-[-0.36px]">
                 Ready to build your product?
               </p>
-              <h2 className="text-white text-3xl lg:text-[54px] font-medium tracking-[-0.56px]  leading-[116%]">
+              <h2 className="text-white text-3xl lg:text-[54px] font-medium tracking-[-0.56px]  leading-[126%]">
                 Lets work together
               </h2>
             </div>
@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
 
           {/* contact details */}
-          <div className="flex flex-col lg:flex-row items-start lg:justify-between w-full max-lg:px-6 p-8 pt-7 lg:pt-10 max-lg:gap-y-7 mt-8 relative h-[280px]">
+          <div className="flex flex-col lg:flex-row items-start lg:justify-between w-full max-lg:px-6 p-8 pt-10 lg:pt-10 max-lg:gap-y-7 mt-8  relative max-lg:h-[300px]">
             {/* bg overlays */}
             <div className="absolute inset-0 w-full h-full hidden lg:block">
               <img src={contactOverlay} alt="overlay" className="h-full w-full object-contain" />
@@ -91,7 +91,7 @@ const Footer = () => {
             <div className="flex justify-start lg:justify-end gap-x-[90px] items-start relative z-20 w-full ">
               <nav className="space-y-4">
                 <p className="text-[#eae3fc] font-medium ">Quicklinks</p>
-                <ul className="space-y-3">
+                <ul className="space-y-3 font-normal">
                   {navContacts.map((nav) => (
                     <li key={nav.label} className="text-white hover:underline transition-all duration-300">
                       <Link to={nav.href}>{nav.label}</Link>
@@ -103,19 +103,26 @@ const Footer = () => {
 
               <nav className="space-y-4">
                 <p className="text-[#eae3fc] font-medium ">Socials</p>
-                <ul className="space-y-3">
+                <ul className="space-y-3 font-normal">
                   {socials.map((social) => (
-                    <li key={social.title} className="text-white flex items-center gap-x-1">
-                      <span className="text-[20px]">{social.icon}</span>
-                      <span>{social.title}</span>
-                      <span>{icons.arrowUpRight}</span>
+                    <li key={social.title}>
+                      <a
+                        href={social.url}
+                        target="_blank"
+                        className="text-white flex items-center gap-x-1"
+                        rel="noreferrer"
+                      >
+                        <span className="text-[20px]">{social.icon}</span>
+                        <span>{social.title}</span>
+                        <span>{icons.arrowUpRight}</span>
+                      </a>
                     </li>
                   ))}
                 </ul>
               </nav>
             </div>
 
-            <p className="text-white text-xs lg:hidden relative z-20">&copy; ABDULRAHMAN KOLE-IBRAHIM 2023</p>
+            <p className="text-white text-sm lg:hidden relative z-20">&copy; ABDULRAHMAN KOLE-IBRAHIM 2023</p>
           </div>
         </div>
       </footer>
