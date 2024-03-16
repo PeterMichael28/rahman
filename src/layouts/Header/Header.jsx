@@ -82,15 +82,19 @@ const Header = () => {
               ))}
 
               {/* resume button */}
-              <button
-                type="button"
-                className={classNames(
-                  "px-4 py-2 flex justify-center gap-1 items-center text-tertiary satoshi text-sm transition-all duration-300 hover:text-primary"
-                )}
-              >
-                Resume
-                <span>{icons.arrowUpRight}</span>
-              </button>
+
+              <li>
+                <a
+                  href="/ABDULRAHMANRESUME.pdf"
+                  download="ABDULRAHMANRESUME.pdf"
+                  className={classNames(
+                    "px-4 py-2 flex justify-center gap-1 items-center text-tertiary text-sm transition-all duration-300 hover:text-primary"
+                  )}
+                >
+                  Resume
+                  <span>{icons.arrowUpRight}</span>
+                </a>
+              </li>
             </ul>
           </nav>
 

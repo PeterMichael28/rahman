@@ -47,7 +47,7 @@ const SelectedWork = () => {
           <div className=" mt-6 lg:mt-10">
             <h4 className="text-[24px] lg:text-[40px] font-medium text-primary-text">Project Overview</h4>
 
-            <p className="mt-5 lg:mt-8 text-sm lg:text-[20px] leading-[150%] flex flex-col items-start gap-y-4 text-[#5A5566">
+            <p className="mt-5 lg:mt-8 text-sm lg:text-[20px] leading-[150%] flex flex-col items-start gap-y-4 text-[#5A5566]">
               {currentWork.overview.map((text, i) => (
                 <span key={i}>{text}</span>
               ))}
@@ -86,7 +86,7 @@ const SelectedWork = () => {
               </div>
             </div>
 
-            <div className="mt-4">
+            <div className="mt-8">
               <Button
                 icon={
                   <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">

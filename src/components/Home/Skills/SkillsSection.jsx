@@ -9,7 +9,7 @@ import silverStar from "~/assets/images/skills/skillsStar-silver.png";
 
 const SkillsSection = () => {
   return (
-    <section className="bg-white mt-12 md:mt-24">
+    <section className="bg-white mt-16 md:mt-24">
       {/* big screen */}
       <div className="max-w-[1200px] w-full mx-auto px-0 relative hidden md:block">
         <img src={skillsBgLarge} alt="" className="w-full" />

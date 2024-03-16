@@ -28,10 +28,10 @@ const TestimonialSection = () => {
   ];
   return (
     <section className="bg-white">
-      <div className="max-w-[1200px] w-full mx-auto px-4 md:px-8 pt-10 lg:pt-20 lg:px-0 relative">
+      <div className="max-w-[1200px] w-full mx-auto px-4 md:px-8 pt-16 lg:pt-20 lg:px-0 relative">
         <SectionHeader text="Testimonials" />
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-7 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-7 mt-8">
           {testimonialData.map((dat, i) => (
             <SingleTestimonialCard key={i} data={dat} />
           ))}
@@ -52,6 +52,6 @@ const SingleTestimonialCard = ({ data }) => (
         <p className="text-[#7B748B] text-sm font-medium">{data?.title}</p>
       </div>
     </div>
-    <p className="text-[#5A5566] text-xs lg:text-sm leading-[160%]">{data?.content}</p>
+    <p className="text-[#5A5566] text-sm leading-[160%]">{data?.content}</p>
   </div>
 );

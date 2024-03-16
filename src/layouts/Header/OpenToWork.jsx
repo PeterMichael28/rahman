@@ -8,7 +8,21 @@ const OpenToWork = () => {
   useEffect(() => {
     let ctx = gsap.context(() => {
       // create as many GSAP animations and/or ScrollTriggers here as you want...
-      gsap.timeline().fromTo(
+
+      const tl = gsap.timeline({
+        repeat: -1, // Repeat the animation indefinitely
+        repeatDelay: 5, // Delay before the next animation starts
+      });
+      tl.fromTo(
+        ".dot-animation",
+        { scale: 1.9 },
+        {
+          scale: 1,
+          opacity: 1,
+          ease: "elastic.out(1,0.3)",
+          duration: 3,
+        }
+      ).fromTo(
         ".name-animation",
         { x: -50, opacity: 0, rotate: -10 },
         {
@@ -19,8 +33,6 @@ const OpenToWork = () => {
           duration: 4,
           transformOrigin: "left top",
           stagger: { each: 0.2 },
-          repeat: -1, // Repeat the animation indefinitely
-          repeatDelay: 5, // Delay before the next animation starts
         }
       );
     }, component);

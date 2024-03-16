@@ -24,7 +24,13 @@ const MobileNav = ({ showMobile, setShowMobile, list }) => {
             <div className="h-[1px] w-full bg-[#f7f6f9]" />
           </React.Fragment>
         ))}
-        <button className={classNames("text-[#6f697E] text-sm ")}>Resume</button>
+        <a
+          href="/ABDULRAHMANRESUME.pdf"
+          download="ABDULRAHMANRESUME.pdf"
+          className={classNames("text-[#6f697E] text-sm ")}
+        >
+          Resume
+        </a>
         <div className="h-[1px] w-full bg-[#f7f6f9]" />
       </div>
 
@@ -37,7 +43,8 @@ const MobileNav = ({ showMobile, setShowMobile, list }) => {
               key={i}
               href={social.url}
               target="_blank"
-              className="size-9 rounded-full bg-[#f1ecfd] flex justify-center items-center text-primary" rel="noreferrer"
+              className="size-9 rounded-full bg-[#f1ecfd] flex justify-center items-center text-primary"
+              rel="noreferrer"
             >
               {social.icon}
             </a>
