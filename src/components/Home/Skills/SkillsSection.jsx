@@ -32,7 +32,7 @@ const SkillsSection = () => {
           </div>
 
           {/* skills collection */}
-          <img src={SkillsListsLarge} alt="image" />
+          <img src={SkillsListsLarge} alt="image" className="object-contan max-w-[500px] h-full" />
         </div>
       </div>
 
