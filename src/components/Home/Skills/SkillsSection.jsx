@@ -59,7 +59,7 @@ const SkillsSection = () => {
             <div className="relative z-20">
               <h3 className="text-[28px] font-medium leading-[120%] text-white flex justify-start  flex-col  text-left mt-2">
                 <span>Some of my</span>
-                <span className="text-stroke ">Technical Skills</span>
+                <span className="stroked-text2">Technical Skills</span>
               </h3>
             </div>
 

@@ -144,7 +144,7 @@ font-family: Satoshi;
 
 }
 .stroked-text2 {
-  -webkit-text-stroke: 2px #fff;
-  -webkit-text-fill-color: #1A0E36;
+  -webkit-text-stroke: 1.5px #fff;
+  -webkit-text-fill-color: transparent;
 
 }
