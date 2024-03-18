@@ -51,18 +51,25 @@ const SelectedWork = () => {
 
           {/* project overview */}
           <div className=" mt-6 lg:mt-10">
-            <h4 className="text-[24px] lg:text-[40px] font-medium text-primary-text" data-aos="fade-up">Project Overview</h4>
+            <h4 className="text-[24px] lg:text-[40px] font-medium text-primary-text" data-aos="fade-up">
+              Project Overview
+            </h4>
 
             <p className="mt-5 lg:mt-8 text-sm lg:text-[20px] leading-[150%] flex flex-col items-start gap-y-4 text-[#5A5566]">
               {currentWork.overview.map((text, i) => (
-                <span key={i} data-aos="fade-up">{text}</span>
+                <span key={i} data-aos="fade-up">
+                  {text}
+                </span>
               ))}
             </p>
 
             {/* more details */}
-            <div className="grid grid-cols-2 lg:grid-cols-4 place-items-start lg:place-content-between gap-y-5 mt-6 lg:mt-8" data-aos="fade-up">
+            <div
+              className="grid grid-cols-2 lg:grid-cols-4 place-items-start lg:place-content-between gap-y-5 mt-6 lg:mt-8"
+              data-aos="fade-up"
+            >
               {/* role */}
-              <div className="flex flex-col items-start gap-y-2" >
+              <div className="flex flex-col items-start gap-y-2">
                 <p className="text-primary-text font-medium text-lg lg:text-2xl leading-[120%]">Role</p>
                 <span className="text-sm lg:text-base leading-[140%] text-[#5A5566]">{currentWork.role}</span>
               </div>
