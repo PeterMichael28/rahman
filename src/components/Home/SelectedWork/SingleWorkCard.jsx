@@ -32,7 +32,7 @@ const SingleWorkCard = ({ data }) => {
         </div>
 
         {/* hover card */}
-        <div className="w-[90%] py-4 px-5  h-[48px] lg:h-[70px] lg:px-8 lg:py-5 rounded-full case_study_blur absolute bottom-4 lg:bottom-7 mx-auto text-white left-1/2 -translate-x-1/2 flex justify-between items-center lg:translate-y-[200%] lg:group-hover:translate-y-0 transition-all duration-500">
+        <div className="w-[90%] py-4 px-5  h-[48px] lg:h-[70px] lg:px-8 lg:py-5 rounded-full case_study_blur absolute bottom-4 lg:bottom-7 mx-auto text-white left-1/2 -translate-x-1/2 flex justify-between items-center lg:translate-y-[200%] lg:group-hover:translate-y-0 transition-all duration-700">
           <p className="text-white text-sm lg:text-lg font-medium">See Details</p>
 
           <svg xmlns="http://www.w3.org/2000/svg" width="29" height="19" viewBox="0 0 23 16" fill="none">
