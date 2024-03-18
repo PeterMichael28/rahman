@@ -47,7 +47,7 @@ const OpenToWork = () => {
       ref={component}
     >
       <span className="text-lg animate-ping dot-animation">{icons.dot}</span>
-      <span className="space-x-[2px]">
+      <span className="space-x-1">
         {"Open to work".split(" ").map((letter, index) => (
           <span key={index} className={`name-animation name-animation-${letter}-index inline-block opacity-0 `}>
             {letter}
