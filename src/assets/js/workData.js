@@ -92,7 +92,7 @@ import faramove22 from "~/assets/images/faramove/faramove22.png";
 export const workData = [
   {
     title: "Jeetar",
-    subText: "A virtual grocery shop that allows users get groceries delivered in 20 minutes or less.",
+    subText: "A virtual grocery shop that allows users get their groceries delivered in 20 minutes or less.",
     overview: [
       "An app for grocery shopping that offers quick, on-demand delivery in less than 20 minutes. I was in charge of reviewing code with the organization's stakeholders as the development team lead.",
       "My team developed a feature that notifies users when the team has refilled their favourite out-of-stock item. This resulted in an average 20% increase in user retention.",

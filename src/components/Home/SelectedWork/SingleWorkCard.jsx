@@ -20,7 +20,7 @@ const SingleWorkCard = ({ data }) => {
       <div className="relative overflow-hidden h-full">
         {/* sub text */}
         <p
-          className="font-medium lg:font-normal text-sm lg:text-[20px] leading-[150%] text-center max-w-[550px] mx-auto lg:px-4 px-6"
+          className="font-medium lg:font-normal text-sm lg:text-[20px] leading-[150%] text-center max-w-[510px] mx-auto lg:px-4 px-6"
           style={{ color: data?.subtextColor }}
         >
           {data?.subText}
