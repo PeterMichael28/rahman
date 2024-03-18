@@ -4,7 +4,7 @@ import SectionHeader from "~/components/SectionHeader";
 
 const WorkSection = () => {
   return (
-    <section className="bg-white">
+    <section className="bg-white work" id="works">
       <div className="max-w-[1200px] w-full mx-auto px-4 md:px-8 pt-16 lg:pt-20 lg:px-4 relative">
         <SectionHeader text="Selected Works" />
 
