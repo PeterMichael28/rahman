@@ -6,7 +6,7 @@ import AboutTab from "~/components/About/AboutTab";
 
 const AboutPage = () => {
   return (
-    <section className="max-w-[1200px] w-full mx-auto px-4 md:px-8 pt-1 lg:pt-10 lg:px-0 relative mt-16 lg:mt-20">
+    <section className="max-w-[1200px] w-full mx-auto px-4 md:px-8 pt-1 lg:pt-10 lg:px-4 relative mt-16 lg:mt-20">
       {/* layout */}
       <div className="grid grid-cols-12 place-items-start lg:gap-x-12 w-full">
         {/* tabs */}

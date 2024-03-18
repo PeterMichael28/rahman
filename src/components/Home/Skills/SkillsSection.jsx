@@ -11,8 +11,8 @@ const SkillsSection = () => {
   return (
     <section className="bg-white mt-16 md:mt-24">
       {/* big screen */}
-      <div className="max-w-[1200px] w-full mx-auto px-0 relative hidden md:block">
-        <img src={skillsBgLarge} alt="" className="w-full" />
+      <div className="max-w-[1200px] w-full mx-auto md:px-4 lg:px-4 relative hidden md:block">
+        <img src={skillsBgLarge} alt="" className="" />
         <div className="absolute inset-0 w-full h-full flex lg:justify-between flex-col lg:flex-row items-center px-8 lg:px-16">
           {/* star1 */}
           <img src={star1} alt="star" className="absolute object-contain top-[10rem] left-8" />

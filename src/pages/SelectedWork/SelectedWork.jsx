@@ -18,7 +18,7 @@ const SelectedWork = () => {
   // console.log(currentWork);
 
   return (
-    <div className="max-w-[1200px] w-full mx-auto px-5 lg:px-0 pt-10 lg:pt-10 mt-10 lg:mt-14 ">
+    <div className="max-w-[1200px] w-full mx-auto px-5 lg:px-4 pt-10 lg:pt-10 mt-10 lg:mt-14 ">
       {/* back */}
       <div className="flex gap-2.5 items-center underline-offset-4 cursor-pointer" onClick={() => navigate(-1)}>
         <svg

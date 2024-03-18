@@ -62,7 +62,20 @@ html {
 
 body {
   font-family: "Satoshi", sans-serif !important;
+
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+  /* scrollbar-width: none; */
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
 
 .times {
   font-family: "Times", sans-serif !important;
@@ -105,4 +118,48 @@ backdrop-filter: blur(30px);
 
 .faq-shadow {
   box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.06) inset;
+}
+
+.loader {
+  position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2000;
+    top:0;
+    left:0;
+    display: flex;
+    /* background-color: #1a1a1a; */
+    overflow: hidden;
+}
+.counter {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  z-index: 4000;
+  color: #bcbcc4;
+  padding: 0.2em 0.4em;
+  font-size: 15vw;
+  
+
+}
+
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 2;
+  display: flex;
+  /* gap: -100px; */
+  top: 0;
+  left: 0;
+  z-index: 2000;
+}
+
+.bar {
+  width: 12vw;
+  height: 105vh;
+  background-color: #1a1a1a;
 }

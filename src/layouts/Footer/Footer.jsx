@@ -12,11 +12,6 @@ export const socials = [
     url: "https://www.linkedin.com/in/abdul-rahman-kole-ibrahim-0b488715b/",
   },
   {
-    title: "Twitter",
-    icon: icons.twitter,
-    url: "",
-  },
-  {
     title: "Github",
     icon: icons.github,
     url: "https://github.com/ABDULRAHMANBAYO",
@@ -48,7 +43,7 @@ const Footer = () => {
           <img src={footerOverlay2} alt="overlay" className=" w-full h-full" />
         </div>
 
-        <div className="max-w-[1200px] w-full mx-auto px-5 lg:px-0 pt-10 lg:pt-20">
+        <div className="max-w-[1200px] w-full mx-auto px-5 lg:px-4 pt-10 lg:pt-20">
           <div className="flex flex-col lg:flex-row items-start lg:justify-between lg:items-center gap-y-4 relative z-10 w-full">
             <div>
               <p className="text-[#EAE3FC] text-xl lg:text-3xl font-normal leading-[126%] tracking-[-0.36px]">
@@ -65,10 +60,10 @@ const Footer = () => {
           </div>
 
           {/* contact details */}
-          <div className="flex flex-col lg:flex-row items-start lg:justify-between w-full max-lg:px-6 p-8 pt-10 lg:pt-10  mt-[58px]  relative max-lg:h-[340px]">
-            {/* bg overlays */}
+          <div className="flex flex-col lg:flex-row items-start lg:justify-between w-full max-lg:px-6 p-8 pt-10 lg:pt-6  mt-[58px]  relative max-lg:h-[340px]">
+            {/* contact overlays */}
             <div className="absolute inset-0 w-full h-full hidden lg:block">
-              <img src={contactOverlay} alt="overlay" className="h-full w-full object-contain" />
+              <img src={contactOverlay} alt="overlay" className="h-full w-full object-" />
             </div>
 
             {/* contactOverlay2 small screen*/}
@@ -83,7 +78,7 @@ const Footer = () => {
                   fill="white"
                 />
               </svg>
-              <p className="text-white hidden md:block mt-[72px]">
+              <p className="text-white hidden md:block mt-[82px]">
                 &copy; ABDULRAHMAN KOLE-IBRAHIM {new Date().getFullYear()}
               </p>
             </div>
@@ -97,7 +92,11 @@ const Footer = () => {
                       <Link to={nav.href}>{nav.label}</Link>
                     </li>
                   ))}
-                  <li className="text-white hover:underline transition-all duration-300 cursor-pointer">Resume</li>
+                  <li className="text-white hover:underline transition-all duration-300 cursor-pointer">
+                    <a href="/ABDULRAHMANRESUME.pdf" download="ABDULRAHMANRESUME.pdf">
+                      Resume
+                    </a>
+                  </li>
                 </ul>
               </nav>
 
@@ -122,7 +121,9 @@ const Footer = () => {
               </nav>
             </div>
 
-            <p className="text-white text-sm lg:hidden relative mt-12 z-20">&copy; ABDULRAHMAN KOLE-IBRAHIM 2023</p>
+            <p className="text-white text-sm lg:hidden relative mt-12 z-20">
+              &copy; ABDULRAHMAN KOLE-IBRAHIM {new Date().getFullYear()}
+            </p>
           </div>
         </div>
       </footer>

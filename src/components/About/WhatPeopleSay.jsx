@@ -1,7 +1,9 @@
+import { useState } from "react";
 import SectionHeader from "../SectionHeader";
 import SingleCard from "./SingleCard";
 
 const WhatPeopleSay = () => {
+  const [activeTab, setActiveTab] = useState(0);
   const whatTheySayLists = [
     {
       title: "Dedication",
@@ -24,7 +26,7 @@ const WhatPeopleSay = () => {
 
       <div className="flex flex-col gap-y-6 lg:gap-y-8 w-full mt-7 lg:mt-12" id="">
         {whatTheySayLists.map((obj, id) => (
-          <SingleCard obj={obj} id={id} key={id} />
+          <SingleCard obj={obj} id={id} key={id} activeTab={activeTab} setActiveTab={setActiveTab}/>
         ))}
       </div>
     </section>
