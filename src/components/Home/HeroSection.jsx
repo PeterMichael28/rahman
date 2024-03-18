@@ -9,7 +9,7 @@ const HeroSection = () => {
       {/* bg image */}
       <img src={heroBg} alt="bg-image" className="absolute inset-0 w-full h-full z-0 lg:block hidden" />
 
-      <div className="max-w-[1200px] w-full mx-auto px-4 md:px-8 pt-10 lg:px-4 relative mt-16 lg:mt-20 z-10">
+      <div className="max-w-[1200px] w-full mx-auto px-4 md:px-8 pt-10 lg:px-4 relative mt-16 lg:mt-14 z-10">
         {/* star */}
         <img
           src={star}
@@ -39,16 +39,19 @@ const HeroSection = () => {
         {/* header text */}
 
         <h1 className="uppercase flex text-left flex-col lg:text-center font-black text-primary-text text-[41px] md:text-[80px] lg:text-[110px] tracking-[-0.248px] leading-[116%] px-2">
-          <span className="text1">Mobile App</span>
-          <span className="text2">Developer</span>
+          <span data-aos="fade-up">Mobile App</span>
+          <span data-aos="fade-up">Developer</span>
         </h1>
 
-        <p className="max-w-2xl px-2 mx-auto text-tertiary mt-4 text-left max-sm:text-sm lg:text-center leading-[150%] tracking-[0.04px] text3">
+        <p
+          className="max-w-2xl px-2 mx-auto text-tertiary mt-4 text-left max-sm:text-sm lg:text-center leading-[150%] tracking-[0.04px] "
+          data-aos="fade-up"
+        >
           A dedicated and experienced mobile engineer focused on building functional products embedded with top-notch
           user experience to ensure positive company impact and success.
         </p>
 
-        <div className="flex justify-between lg:justify-center items-center lg:gap-4 mt-6 text4">
+        <div className="flex justify-between lg:justify-center items-center lg:gap-4 mt-6 text4" data-aos="fade-up">
           {chipsContent.map((chip, i) => (
             <div
               key={i}
@@ -59,7 +62,7 @@ const HeroSection = () => {
           ))}
         </div>
 
-        <div className="w-full lg:justify-center flex mt-8 lg:mt-12 text5">
+        <div className="w-full lg:justify-center flex mt-8 lg:mt-12 " data-aos="fade-up">
           {/* btn */}
           <Button
             icon={

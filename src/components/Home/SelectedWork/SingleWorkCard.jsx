@@ -7,6 +7,7 @@ const SingleWorkCard = ({ data }) => {
       to={`/works/${encodeURIComponent(data.title)}`}
       className="w-full lg:h-[530px] rounded-[20px] relative pt-[40px] lg:pt-[70px] group"
       style={{ background: data.bgColor }}
+      data-aos="fade-up"
     >
       {/* header */}
       <div className="flex justify-center items-center w-full absolute -top-10 max-sm:scale-75">

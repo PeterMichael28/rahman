@@ -18,13 +18,13 @@ const AboutPage = () => {
           {/* about */}
           <section id="about">
             {/* image */}
-            <div>
+            <div data-aos="fade-right">
               <img src={dp} alt="image" className="size-[96px] lg:size-[160px] rounded-full object-contain" />
             </div>
 
             {/* header */}
             <div>
-              <h1 className="text-primary-text text-[25px] lg:text-[50px] font-bold mt-5 leading-normal">
+              <h1 className="text-primary-text text-[25px] lg:text-[50px] font-bold mt-5 leading-normal" data-aos="fade-up">
                 Hi I’m{" "}
                 <span className=" relative max-lg:flex overflow-hidden max-w-fit justify-start items-start">
                   <span className="relative z-10 mr-1 text-[#F37F14]">Abdur Rahman Kole-Ibrahim </span>
@@ -38,7 +38,7 @@ const AboutPage = () => {
               </h1>
 
               {/* details */}
-              <div className="mt-4 lg:mt-6 space-y-5 lg:space-y-6 text-[#5A5566] ">
+              <div className="mt-4 lg:mt-6 space-y-5 lg:space-y-6 text-[#5A5566] " data-aos="fade-up">
                 <p className="text-sm lg:text-lg leading-[150%]">
                   I am an experienced Mobile Engineer a 4-year track record in crafting mobile applications across
                   diverse sectors such as agrictech, fintech, e-commerce, real estate, and logistics.
@@ -57,7 +57,7 @@ const AboutPage = () => {
               </div>
 
               {/* button */}
-              <div className="w-full flex mt-8 ">
+              <div className="w-full flex mt-8 " data-aos="fade-up">
                 {/* btn */}
                 <Button
                   icon={
