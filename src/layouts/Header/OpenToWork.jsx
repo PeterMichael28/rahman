@@ -13,16 +13,17 @@ const OpenToWork = () => {
         repeat: -1, // Repeat the animation indefinitely
         repeatDelay: 5, // Delay before the next animation starts
       });
+      // tl.fromTo(
+      //   ".dot-animation",
+      //   { scale: 1 },
+      //   {
+      //     scale: 1.9,
+      //     // opacity: 1,
+      //     ease: "bounce.inOut",
+      //     duration: 3,
+      //   }
+      // );
       tl.fromTo(
-        ".dot-animation",
-        { scale: 1.9 },
-        {
-          scale: 1,
-          opacity: 1,
-          ease: "elastic.out(1,0.3)",
-          duration: 3,
-        }
-      ).fromTo(
         ".name-animation",
         { x: -50, opacity: 0, rotate: -10 },
         {
@@ -45,7 +46,7 @@ const OpenToWork = () => {
       className="px-4 py-2 flex justify-center items-center gap-1 rounded-[20px] bg-onSecondary text-secondary font-medium text-sm"
       ref={component}
     >
-      <span className="text-lg animate-pulse dot-animation">{icons.dot}</span>
+      <span className="text-lg animate-ping dot-animation">{icons.dot}</span>
       <span className="space-x-[2px]">
         {"Open to work".split(" ").map((letter, index) => (
           <span key={index} className={`name-animation name-animation-${letter}-index inline-block opacity-0 `}>
