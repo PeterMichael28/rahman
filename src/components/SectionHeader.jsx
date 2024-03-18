@@ -1,7 +1,7 @@
 const SectionHeader = ({ text }) => {
   return (
     <h2
-      className="text-primary-text font-medium lg:text-[40px] text-[24px] leading-normal"
+      className="text-primary-text font-medium md:text-[40px] text-[24px] leading-normal"
       data-aos="fade-up"
       data-aos-offset="60"
     >

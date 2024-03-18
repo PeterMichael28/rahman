@@ -18,7 +18,7 @@ const SelectedWork = () => {
   // console.log(currentWork);
 
   return (
-    <div className="max-w-[1200px] w-full mx-auto px-5 lg:px-4 pt-10 lg:pt-10 mt-10 lg:mt-14 ">
+    <div className="max-w-[1200px] w-full mx-auto px-5 md:px-10 lg:px-4 pt-10 md:pt-10 mt-10 md:mt-14 ">
       {/* back */}
       <div className="flex gap-2.5 items-center underline-offset-4 cursor-pointer" onClick={() => navigate(-1)}>
         <svg
@@ -43,10 +43,10 @@ const SelectedWork = () => {
         <img
           src={isSmallScreen ? currentWork.images[1] : currentWork.images[0]}
           alt="cover-img"
-          className="w-full h-[246px] lg:h-[600px]"
+          className="w-full h-[246px] md:h-[446px] lg:h-[600px]"
         />
 
-        <div className="mt-10 lg:mt-16">
+        <div className="mt-10 md:mt-16">
           <h2 className="text-[32px] lg:text-[56px] text-primary-text font-bold leading-[140%]">{currentWork.title}</h2>
 
           {/* project overview */}
@@ -142,10 +142,12 @@ const SelectedWork = () => {
         <div className="mt-8 lg:mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-start gap-x-6 gap-y-8">
           {otherWork.map((data, i) => (
             <div key={i} className="w-full flex flex-col gap-y-3 lg:gap-y-4">
-              <img src={data.images[0]} alt="cover-image" className="w-full h-[190px] lg:h-[214px]" />
-              <div className="border-onTertiary border rounded-[20px] w-full min-h-[117px] lg:min-h-[126px] p-5">
+              <img src={data.images[0]} alt="cover-image" className="w-full h-[190px] md:h-[214px]" />
+              <div className="border-onTertiary border rounded-[20px] w-full min-h-[117px] md:min-h-[126px] p-5">
                 <div className="flex justify-between items-center">
-                  <p className="text-[20px] text-primary-text font-medium leading-normal lg:ext-[24px]">{data.title}</p>
+                  <p className="text-[20px] text-primary-text font-medium leading-normal md:text-[24px]">
+                    {data.title}
+                  </p>
 
                   <Link to={`/works/${encodeURIComponent(data.title)}`}>
                     <svg

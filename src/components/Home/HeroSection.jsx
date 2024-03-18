@@ -44,14 +44,17 @@ const HeroSection = () => {
         </h1>
 
         <p
-          className="max-w-2xl px-2 mx-auto text-tertiary mt-4 text-left max-sm:text-sm lg:text-center leading-[150%] tracking-[0.04px] "
+          className="max-w-2xl px-2 lg:mx-auto text-tertiary mt-4 text-left max-sm:text-sm lg:text-center leading-[150%] tracking-[0.04px] "
           data-aos="fade-up"
         >
           A dedicated and experienced mobile engineer focused on building functional products embedded with top-notch
           user experience to ensure positive company impact and success.
         </p>
 
-        <div className="flex justify-between lg:justify-center items-center lg:gap-4 mt-6 text4" data-aos="fade-up">
+        <div
+          className="flex justify-between md:justify-start lg:justify-center items-center md:gap-4 mt-6 "
+          data-aos="fade-up"
+        >
           {chipsContent.map((chip, i) => (
             <div
               key={i}

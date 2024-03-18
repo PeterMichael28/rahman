@@ -5,7 +5,7 @@ const SingleWorkCard = ({ data }) => {
   return (
     <Link
       to={`/works/${encodeURIComponent(data.title)}`}
-      className="w-full lg:h-[530px] rounded-[20px] relative pt-[40px] lg:pt-[70px] group"
+      className="w-full max-w-[620px] mx-auto lg:h-[530px] rounded-[20px] relative pt-[40px] lg:pt-[70px] group"
       style={{ background: data.bgColor }}
       data-aos="fade-up"
     >

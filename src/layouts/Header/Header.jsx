@@ -66,7 +66,7 @@ const Header = () => {
 
           {/* desktop navigation */}
           <nav>
-            <ul className="w-fit py-1 px-3  justify-center items-center rounded-[20px] bg-tertiaryContainer hidden lg:flex">
+            <ul className="w-fit py-1 px-3  justify-center items-center rounded-[20px] bg-tertiaryContainer hidden md:flex">
               {navLists.map((list, i) => (
                 <li key={i}>
                   <Link
@@ -99,7 +99,7 @@ const Header = () => {
           </nav>
 
           {/* mobile navigation */}
-          <div className="lg:hidden">
+          <div className="md:hidden">
             {/* mobile hamburger */}
             {!showMobile ? (
               <svg

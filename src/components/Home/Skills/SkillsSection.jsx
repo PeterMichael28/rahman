@@ -13,7 +13,7 @@ const SkillsSection = () => {
       {/* big screen */}
       <div className="max-w-[1200px] w-full mx-auto md:px-4 lg:px-4 relative hidden md:block">
         <img src={skillsBgLarge} alt="" className="" />
-        <div className="absolute inset-0 w-full h-full flex lg:justify-between flex-col lg:flex-row items-center px-8 lg:px-16">
+        <div className="absolute inset-0 w-full h-full flex md:justify-between flex-col md:flex-row items-center px-8 md:px-16">
           {/* star1 */}
           <img src={star1} alt="star" className="absolute object-contain top-[10rem] left-8" />
 
@@ -59,7 +59,7 @@ const SkillsSection = () => {
             <div className="relative z-20">
               <h3 className="text-[28px] font-medium leading-[120%] text-white flex justify-start  flex-col  text-left mt-2">
                 <span>Some of my</span>
-                <span className="stroked-text2">Technical Skills</span>
+                <span className="text-stroke ">Technical Skills</span>
               </h3>
             </div>
 
