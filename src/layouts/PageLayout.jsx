@@ -50,13 +50,27 @@ const PageLayout = () => {
           ease: "power4.inout",
           duration: 0.7,
         })
+        .fromTo(
+          ".heading",
+          {
+            y: "-=30",
+            opacity: 0,
+            // duration: 1,
+          },
+          {
+            y: "0",
+            opacity: 1,
+            ease: "back.inOut",
+            // duration: 1,
+          }
+        )
         .from([".text1", ".text2", ".text3", ".text4", ".text5"], {
           y: "+=50",
           opacity: 0,
           stagger: {
             amount: 0.7,
           },
-          ease: "back",
+          ease: "back.inOut",
           duration: 1,
         })
         .to(".loader", {

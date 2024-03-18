@@ -40,7 +40,7 @@ const Header = () => {
     <>
       <header
         className={classNames(
-          "fixed top-0 bg-transparent w-full px-5 md:px-8 lg:px-4 py-3 z-40 transition-all duration-300",
+          "fixed top-0 bg-transparent w-full px-5 md:px-8 lg:px-4 py-3 z-40 transition-all duration-300 heading",
           isScrolled && "glass"
         )}
       >
