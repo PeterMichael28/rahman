@@ -9,7 +9,7 @@ const HeroSection = () => {
       {/* bg image */}
       <img src={heroBg} alt="bg-image" className="absolute inset-0 w-full h-full z-0 lg:block hidden" />
 
-      <div className="max-w-[1200px] w-full mx-auto px-4 md:px-8 pt-10 lg:px-4 relative mt-16 lg:mt-14 z-10">
+      <div className="max-w-[1200px] w-full mx-auto px-4 md:px-8 pt-10 lg:px-4 relative mt-[72px] lg:mt-14 z-10">
         {/* star */}
         <img
           src={star}
@@ -38,7 +38,7 @@ const HeroSection = () => {
 
         {/* header text */}
 
-        <h1 className="uppercase flex text-left flex-col lg:text-center font-black text-primary-text text-[41px] md:text-[80px] lg:text-[110px] tracking-[-0.248px] leading-[116%] px-2">
+        <h1 className="uppercase flex text-left flex-col lg:text-center font-black text-primary-text text-[44px] md:text-[80px] lg:text-[110px] tracking-[-0.248px] leading-[116%] px-2">
           <span data-aos="fade-up">Mobile App</span>
           <span data-aos="fade-up">Developer</span>
         </h1>
