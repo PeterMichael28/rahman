@@ -5,11 +5,11 @@ import Button from "../Button/Button";
 const HeroSection = () => {
   const chipsContent = ["Mobile Engineer", "Q&A", "Project Management"];
   return (
-    <section className="w-full flex items-center lg:min-h-screen bg-background  border-[#f6f6f9] border-b-[5px] pb-16 shadow-md shadow-black/25 overflow-hidden ">
+    <section className="w-full flex items-center min-h-[588px] lg:min-h-screen bg-background  border-[#f6f6f9] border-b-[5px] pb-16 shadow-md shadow-black/25 overflow-hidden ">
       {/* bg image */}
       <img src={heroBg} alt="bg-image" className="absolute inset-0 w-full h-full z-0 lg:block hidden" />
 
-      <div className="max-w-[1200px] w-full mx-auto px-4 md:px-8 pt-10 lg:px-4 relative mt-[72px] lg:mt-14 z-10">
+      <div className="max-w-[1200px] w-full mx-auto px-4 md:px-8 pt-10 relative mt-2 lg:mt-14 z-10">
         {/* star */}
         <img
           src={star}
@@ -78,7 +78,7 @@ const HeroSection = () => {
               </svg>
             }
           >
-            <a href="mailto:koleibrahimabdulrahman@gmail.com" className="font-normal md:font-semibold">
+            <a href="mailto:koleibrahimabdulrahman@gmail.com" className="font-medium">
               Contact me
             </a>
           </Button>
