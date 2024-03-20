@@ -128,9 +128,9 @@ const Footer = () => {
         </div>
       </footer>
 
-      <div className="w-full h-[100px] md:h-[86px] flex justify-center items-center bg-[#F5F1FE] gap-x-1 gap-y-1">
+      <div className="w-full h-[86px] text-sm flex justify-center items-center bg-[#F5F1FE] gap-x-1 gap-y-1">
         <p className="text-[#16063E] leading-5 ms-madi-regular">
-          Designed by <span className="text-lg">Oluwatimilehin Akapo.</span>
+          Designed by <span className="">Oluwatimilehin Akapo.</span>
         </p>
 
         <a

@@ -51,14 +51,12 @@ const PageLayout = () => {
           "textarea",
           "button",
           ".link",
-          "p",
-          "h1",
-          "span",
         ]}
         outerStyle={{
-          mixBlendMode: "exclusion",
+          mixBlendMode: "darken",
+          backgroundColor: "#ed26fe",
         }}
-        showSystemCursor
+        // showSystemCursor
       />
     </div>
   );
