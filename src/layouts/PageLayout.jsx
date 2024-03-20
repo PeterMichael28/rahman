@@ -53,8 +53,8 @@ const PageLayout = () => {
           ".link",
         ]}
         outerStyle={{
-          mixBlendMode: "darken",
-          backgroundColor: "#ed26fe",
+          mixBlendMode: "normal",
+          backgroundColor: "#ec26fe73",
         }}
         // showSystemCursor
       />
