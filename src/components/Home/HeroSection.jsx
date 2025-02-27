@@ -3,7 +3,7 @@ import star from "~/assets/images/black-star.png";
 import Button from "../Button/Button";
 
 const HeroSection = () => {
-  const chipsContent = ["Mobile Engineer", "Q&A", "Project Management"];
+  const chipsContent = ["Mobile Engineer.", "Q&A", "Project Management"];
   return (
     <section className="w-full flex items-center lg:min-h-screen bg-background  border-[#f6f6f9] border-b-[5px] pb-16 shadow-md shadow-black/25 overflow-hidden ">
       {/* bg image */}
