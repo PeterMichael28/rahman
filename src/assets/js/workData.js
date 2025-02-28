@@ -17,6 +17,15 @@ import jeetar15 from "~/assets/images/jeetar/jeetar15.png";
 import jeetar16 from "~/assets/images/jeetar/jeetar16.png";
 import jeetar17 from "~/assets/images/jeetar/jeetar17.png";
 
+import newJeetar1 from "~/assets/images/new/jeetar1.webp";
+import newJeetar1sm from "~/assets/images/new/jeetar1sm.webp";
+import newRoppi1 from "~/assets/images/new/roppy1.webp";
+import newRoppi1sm from "~/assets/images/new/roppi1sm.webp";
+import newReyts1 from "~/assets/images/new/reyts.webp";
+import newReyts1sm from "~/assets/images/new/reyts1sm.webp";
+import newFara1 from "~/assets/images/new/fara1.webp";
+import newFara1sm from "~/assets/images/new/fara1sm.webp";
+
 import roppiMainImg from "~/assets/images/roppi/Roppi1.png";
 import roppi2 from "~/assets/images/roppi/roppi2.png";
 import roppi2sm from "~/assets/images/roppi/roppi2sm.png";
@@ -126,6 +135,15 @@ export const workData = [
     subtextColor: "#E3DAFC",
     otherProjectText: "An app for grocery shopping that offers quick, on-demand delivery in less than 20 minutes.",
     liveUrl: "https://play.google.com/store/apps/details?id=com.jeetar.superapp",
+    updatedData: {
+      title: "Jeetar",
+      subText: "A virtual grocery shop that allows users get groceries delivered in 20 minutes or less.",
+      subTextColor: "#D5C7FA",
+      imgNew: newJeetar1,
+      imgNew2: newJeetar1sm,
+      bgColor: "#7444ee",
+      imgBgColor: "#EDE7FD",
+    },
   },
 
   {
@@ -169,6 +187,15 @@ export const workData = [
     liveUrl: "https://onelink.to/xqern9",
     subtextColor: "#FFEBEB",
     otherProjectText: "Roppi is a grocery and food shopping application",
+    updatedData: {
+      title: "Roppi",
+      subText: "An online marketplace for purchase of groceries and meals with fast delivery.",
+      subTextColor: "#FFDDDB",
+      imgNew: newRoppi1,
+      imgNew2: newRoppi1sm,
+      bgColor: "#FE635C",
+      imgBgColor: "#FFE7E5",
+    },
   },
 
   {
@@ -213,6 +240,15 @@ export const workData = [
     subtextColor: "#FDEFE2",
     otherProjectText:
       "I collaborated with the product management and design teams to understand how to turn user solutions to functional products.",
+    updatedData: {
+      title: "Reyts",
+      subText: "A fintech app that ensures ease of international monetary exchange at good rates.",
+      subTextColor: "#FCE5CF",
+      imgNew: newReyts1,
+      imgNew2: newReyts1sm,
+      bgColor: "#F37F14",
+      imgBgColor: "#FDF2E7",
+    },
   },
 
   {
@@ -257,5 +293,14 @@ export const workData = [
     subtextColor: "#EAF6F1",
     otherProjectText:
       "A mobile logistics solution designed to assist customers in requesting the transportation of their choosing to designated areas.",
+    updatedData: {
+      title: "Faramove",
+      subText: "A logistics application with diverse vehicle types for ease of your cargo movement.",
+      subTextColor: "#C4D9D1",
+      imgNew: newFara1,
+      imgNew2: newFara1sm,
+      bgColor: "#3C8369",
+      imgBgColor: "#EFF5F3",
+    },
   },
 ];

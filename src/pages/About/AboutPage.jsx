@@ -24,7 +24,10 @@ const AboutPage = () => {
 
             {/* header */}
             <div>
-              <h1 className="text-primary-text text-[25px] lg:text-[50px] font-bold mt-5 leading-normal" data-aos="fade-up">
+              <h1
+                className="text-primary-text text-[25px] lg:text-[50px] font-bold mt-5 leading-normal"
+                data-aos="fade-up"
+              >
                 Hi I’m{" "}
                 <span className=" relative max-lg:flex overflow-hidden max-w-fit justify-start items-start">
                   <span className="relative z-10 mr-1 text-[#F37F14]">Abdur Rahman Kole-Ibrahim </span>
@@ -61,18 +64,11 @@ const AboutPage = () => {
                 {/* btn */}
                 <Button
                   icon={
-                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="25" viewBox="0 0 18 28" fill="none">
-                      <rect
-                        x="0.625"
-                        y="1.50098"
-                        width="16.75"
-                        height="16.75"
-                        rx="3.375"
-                        stroke="white"
-                        strokeWidth="1.25"
-                      />
+                    <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
-                        d="M9.625 14.624C9.625 14.2788 9.34518 13.999 9 13.999C8.65482 13.999 8.375 14.2788 8.375 14.624L9.625 14.624ZM8.55806 27.566C8.80214 27.81 9.19787 27.81 9.44194 27.566L13.4194 23.5885C13.6635 23.3444 13.6635 22.9487 13.4194 22.7046C13.1753 22.4605 12.7796 22.4605 12.5355 22.7046L9 26.2401L5.46447 22.7046C5.22039 22.4605 4.82466 22.4605 4.58058 22.7046C4.33651 22.9487 4.33651 23.3444 4.58058 23.5885L8.55806 27.566ZM8.375 14.624L8.375 27.124L9.625 27.124L9.625 14.624L8.375 14.624Z"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M7.05874 4.22602C6.81465 4.4701 6.81465 4.86583 7.05874 5.10991L12.4501 10.5013L7.05874 15.8927C6.81465 16.1368 6.81465 16.5325 7.05874 16.7765C7.30282 17.0206 7.69849 17.0206 7.94257 16.7765L13.7759 10.9432C14.02 10.6991 14.02 10.3035 13.7759 10.0594L7.94257 4.22602C7.69849 3.98195 7.30282 3.98195 7.05874 4.22602Z"
                         fill="white"
                       />
                     </svg>
