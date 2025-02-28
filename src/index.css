@@ -136,17 +136,17 @@ body {
 }
 
 .stroked-text {
-  color: #FFF;
-font-feature-settings: 'clig' off, 'liga' off;
--webkit-text-stroke-width: 1.5;
--webkit-text-stroke-color: #FFF;
-font-family: Satoshi;
-
+  color: #fff;
+  font-feature-settings:
+    "clig" off,
+    "liga" off;
+  -webkit-text-stroke-width: 1.5;
+  -webkit-text-stroke-color: #fff;
+  font-family: Satoshi;
 }
 .stroked-text2 {
-  -webkit-text-stroke: 1.5px #fff;
+  -webkit-text-stroke: 0.5px #fff;
   -webkit-text-fill-color: transparent;
-
 }
 
 .ms-madi-regular {
@@ -155,6 +155,13 @@ font-family: Satoshi;
   font-style: normal;
 }
 
-b{
-  color: #ec26fe73
+b {
+  color: #ec26fe73;
+}
+
+.playfair-display-footer {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  /* font-weight: 400; */
+  font-style: normal;
 }

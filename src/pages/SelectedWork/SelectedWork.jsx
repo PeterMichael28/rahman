@@ -20,21 +20,16 @@ const SelectedWork = () => {
   return (
     <div className="max-w-[1200px] w-full mx-auto px-5 md:px-10 lg:px-4 pt-10 md:pt-10 mt-10 md:mt-14 ">
       {/* back */}
-      <div className="flex gap-2.5 items-center underline-offset-4 cursor-pointer" onClick={() => navigate(-1)}>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="28"
-          height="19"
-          viewBox="0 0 28 19"
-          fill="none"
-          className="lg:w-[26px] lg:h-[17px] w-[22px] h-[15px]"
-        >
-          <rect x="10.2183" y="1.125" width="16.75" height="16.75" rx="3.375" stroke="#7444EE" strokeWidth="1.25" />
+      <div className="flex gap-1.5 items-center underline-offset-4 cursor-pointer" onClick={() => navigate(-1)}>
+        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
-            d="M13.5 9.15991C13.8452 9.15991 14.125 9.43973 14.125 9.78491C14.125 10.1301 13.8452 10.4099 13.5 10.4099L13.5 9.15991ZM0.558059 10.2269C0.313981 9.98278 0.313981 9.58705 0.558059 9.34297L4.53553 5.36549C4.77961 5.12142 5.17534 5.12142 5.41942 5.36549C5.6635 5.60957 5.6635 6.0053 5.41942 6.24938L1.88388 9.78491L5.41942 13.3204C5.66349 13.5645 5.66349 13.9603 5.41942 14.2043C5.17534 14.4484 4.77961 14.4484 4.53553 14.2043L0.558059 10.2269ZM13.5 10.4099L1 10.4099L1 9.15991L13.5 9.15991L13.5 10.4099Z"
+            fillRule="evenodd"
+            clipRule="evenodd"
+            d="M13.7762 4.22602C14.0203 4.4701 14.0203 4.86583 13.7762 5.10991L8.38486 10.5013L13.7762 15.8927C14.0203 16.1368 14.0203 16.5325 13.7762 16.7765C13.5321 17.0206 13.1365 17.0206 12.8924 16.7765L7.05903 10.9432C6.81496 10.6991 6.81496 10.3035 7.05903 10.0594L12.8924 4.22602C13.1365 3.98195 13.5321 3.98195 13.7762 4.22602Z"
             fill="#7444EE"
           />
         </svg>
+
         <span className="lg:text-lg text-sm leading-[140%] text-primary font-medium underline">Back</span>
       </div>
 
@@ -102,15 +97,25 @@ const SelectedWork = () => {
             <div className="mt-8" data-aos="fade-up">
               <Button
                 icon={
-                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                  <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
-                      d="M0.535534 10.9077C0.304565 11.1642 0.325276 11.5594 0.581793 11.7904C0.838311 12.0214 1.2335 12.0007 1.46447 11.7441L0.535534 10.9077ZM10.992 0.889189C10.9739 0.544485 10.6798 0.279691 10.3351 0.297756L4.71783 0.592146C4.37312 0.610211 4.10833 0.904295 4.12639 1.249C4.14446 1.5937 4.43854 1.8585 4.78325 1.84043L9.77639 1.57875L10.0381 6.5719C10.0561 6.91661 10.3502 7.1814 10.6949 7.16333C11.0396 7.14527 11.3044 6.85119 11.2864 6.50648L10.992 0.889189ZM1.46447 11.7441L10.8323 1.34011L9.90336 0.503693L0.535534 10.9077L1.46447 11.7441Z"
+                      d="M1.13873 14.135C0.870715 14.403 0.870715 14.8376 1.13873 15.1056C1.40675 15.3736 1.8413 15.3736 2.10931 15.1056L1.13873 14.135ZM12.511 2.76276L1.13873 14.135L2.10931 15.1056L13.4816 3.73334L12.511 2.76276Z"
                       fill="white"
+                    />
+                    <path
+                      d="M3.17676 3.15625H13.1218V13.1013"
+                      stroke="white"
+                      strokeWidth="1.37261"
+                      strokeLinecap="round"
+                      strokeLinejoin="bevel"
                     />
                   </svg>
                 }
+                cns={
+                  " lg:p-0 lg:h-[58px] lg:text-lg gap-3 lg:w-[188px] lg:gap-[10px]  lg:items-center lg:justify-center"
+                }
               >
-                <a href={currentWork.liveUrl} target="_blank" rel="noreferrer">
+                <a href={currentWork.liveUrl} target="_blank" rel="noreferrer" className="font-medium  block w-full ">
                   Open Project
                 </a>
               </Button>

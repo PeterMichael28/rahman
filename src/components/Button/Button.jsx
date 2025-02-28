@@ -7,6 +7,7 @@ const Button = ({
   type = "button",
   disabled, // primary, tertiary, secondary, error
   className,
+  cns, // className for children or label
   icon,
   onClick = () => {},
 }) => {
@@ -26,7 +27,12 @@ const Button = ({
       {/* bg image */}
       {/* <img src={overlay} alt="bg-image" className="absolute left-1/2 bottom-0 -translate-x-1/2 object-contain" /> */}
 
-      <div className="relative z-20 inline-flex justify-center items-center gap-2.5 px-[18px] lg:px-7 h-12 lg:h-14 lg:text-[18px] text-sm text-white font-medium">
+      <div
+        className={classNames(
+          "relative z-20 inline-flex justify-center items-center gap-2.5 px-[18px] lg:px-7 h-12 lg:h-14 lg:text-[18px] text-sm text-white font-medium",
+          cns
+        )}
+      >
         {children || label}
         {icon}
       </div>
