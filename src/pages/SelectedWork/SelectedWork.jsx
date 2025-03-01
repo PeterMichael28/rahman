@@ -15,12 +15,24 @@ const SelectedWork = () => {
     navigate("/");
   }
 
+  // const handleGoBack = () => {
+  //   console.log(window.history.length);
+  //   if (window.history.length > 1) {
+  //     navigate(-1);
+  //   } else {
+  //     navigate("/");
+  //   }
+  // };
+
   // console.log(currentWork);
 
   return (
     <div className="max-w-[1200px] w-full mx-auto px-5 md:px-10 lg:px-4 pt-10 md:pt-10 mt-10 md:mt-14 ">
       {/* back */}
-      <div className="flex gap-1.5 items-center underline-offset-4 cursor-pointer" onClick={() => navigate(-1)}>
+      <div
+        className="flex gap-1.5 items-center underline-offset-4 cursor-pointer"
+        onClick={() => navigate(!isSmallScreen ? -1 : "/")}
+      >
         <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             fillRule="evenodd"

@@ -2,7 +2,6 @@ import img2 from "~/assets/Icon.webp";
 import MobileSkillsSvg from "./MobileSkillsSvg";
 import DesktopSkillsSvg from "./DesktopSkillsSvg";
 
-
 const NewSkillsSection = () => {
   return (
     <div>
@@ -34,15 +33,15 @@ const NewSkillsSection = () => {
         {/* <img src={skillsBgSm} alt="" className="absolute inset-0 w-full h-full z-10" /> */}
 
         <div className="w-full h-full relative">
-          <div className=" w-full pl-5 pt-[56px] relative">
-            <div className="relative z-20">
+          <div className=" w-full  pt-[56px] relative">
+            <div className="relative z-20 w-[335px] mx-auto">
               <h3 className="text-[28px] font-medium leading-[32px] text-white flex justify-start  flex-col  text-left mt-2">
                 <span>Some of</span>
                 <span className="stroked-text2">My Core Technical Skills</span>
               </h3>
             </div>
           </div>
-        
+
           <MobileSkillsSvg />
         </div>
       </div>

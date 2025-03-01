@@ -5,9 +5,11 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import AnimatedCursor from "react-animated-cursor";
+import { useMediaQuery } from "~/hooks/useMediaQuery";
 
 const PageLayout = () => {
   const { pathname } = useLocation();
+  const isSmallScreen = useMediaQuery("750px");
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -32,32 +34,37 @@ const PageLayout = () => {
       </main>
 
       <Footer />
-      <AnimatedCursor
-        innerSize={9}
-        outerSize={13}
-        color="116, 68, 238"
-        outerAlpha={0.8}
-        innerScale={0.7}
-        outerScale={5}
-        clickables={[
-          "a",
-          'input[type="text"]',
-          'input[type="email"]',
-          'input[type="number"]',
-          'input[type="submit"]',
-          'input[type="image"]',
-          "label[for]",
-          "select",
-          "textarea",
-          "button",
-          ".link",
-        ]}
-        outerStyle={{
-          mixBlendMode: "normal",
-          backgroundColor: "#ec26fe73",
-        }}
-        // showSystemCursor
-      />
+
+      <div>
+        {!isSmallScreen && (
+          <AnimatedCursor
+            innerSize={9}
+            outerSize={13}
+            color="116, 68, 238"
+            outerAlpha={0.8}
+            innerScale={0.7}
+            outerScale={5}
+            clickables={[
+              "a",
+              'input[type="text"]',
+              'input[type="email"]',
+              'input[type="number"]',
+              'input[type="submit"]',
+              'input[type="image"]',
+              "label[for]",
+              "select",
+              "textarea",
+              "button",
+              ".link",
+            ]}
+            outerStyle={{
+              mixBlendMode: "normal",
+              backgroundColor: "#ec26fe73",
+            }}
+            // showSystemCursor
+          />
+        )}
+      </div>
     </div>
   );
 };
