@@ -7,10 +7,10 @@ import Button from "../Button/Button";
 const HeroSection = () => {
   const chipsContent = ["Mobile Engineer.", "Q&A", "Project Management"];
   return (
-    <section className="w-full flex items-center lg:min-h-screen bg-[#FCFAFF]  border-[#F6F0FF] border-b-[1px] pb-16 shadow-md shadow-black/25 overflow-hidden ">
+    <section className="w-full flex items-center lg:min-h-screen bg-[#FCFAFF]  border-[#F6F0FF] border-b-[1px] pb-16 shaow-md shadow-black/25 md:shadow-none overflow-hidden relative">
       {/* bg image */}
       <img src={newBg} alt="bg-image" className="absolute inset-0 w-full h-full z-0 md:block hidden" />
-      <img src={newBgSm} alt="bg-image" className="absolute inset-0 w-full h-full z-0 md:hidden" />
+      <img src={newBgSm} alt="bg-image" className="absolute top-0 left-0 w-full h-full z-0 md:hidden" />
       <div className="max-w-[1200px] w-full mx-auto px-4 md:px-8 pt-10 lg:px-4 relative mt-[72px] lg:mt-[76px] z-10">
         {/* star */}
         <img
@@ -85,7 +85,7 @@ const HeroSection = () => {
               "w-full pl-[18px] pr-[14px] lg:pl-[18px] lg:pr-[14px] h-12 lg:h-12 lg:text-[14px] gap-4 lg:w-[157px] lg:gap-3  max-md:justify-between"
             }
           >
-            <a href="mailto:koleibrahimabdulrahman@gmail.com" className="font-medium  block w-full">
+            <a href="mailto:koleibrahimabdulrahman@gmail.com" className="font-medium  block md:w-full">
               Contact me
             </a>
           </Button>
