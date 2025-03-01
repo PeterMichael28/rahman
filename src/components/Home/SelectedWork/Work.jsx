@@ -1,5 +1,5 @@
 import { workData } from "~/assets/js/workData";
-import SingleWorkCard from "./SingleWorkCard";
+// import SingleWorkCard from "./SingleWorkCard";
 import SectionHeader from "~/components/SectionHeader";
 import { SmoothCorners } from "react-smooth-corners";
 import SingleCard from "../SingleCard";

@@ -1,4 +1,4 @@
-import heroBg from "~/assets/images/hero-bg.png";
+// import heroBg from "~/assets/images/hero-bg.png";
 import star from "~/assets/images/black-star.png";
 import newBg from "~/assets/HomeBg.webp";
 import newBgSm from "~/assets/HomeBgSm.webp";
