@@ -24,7 +24,7 @@ const ExperienceSection = () => {
     },
   ];
   return (
-    <section id="experience">
+    <section>
       <SectionHeader text="Experience" />
 
       <div className="space-y-4 mt-6 lg:mt-12">

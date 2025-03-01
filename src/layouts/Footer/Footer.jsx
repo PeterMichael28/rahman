@@ -39,9 +39,9 @@ const Footer = () => {
 
   return (
     <>
-      <footer className="relative bg-primary-light mt-24 min-h-[390px] lg:h-[432px]">
+      <footer className="relative bg-primary-light mt-24 min-h-[390px] lg:h-[439px]">
         {/* bg overlays */}
-        <div className="absolute inset-0 w-full h-full hidden md:block">
+        <div className="absolute inset-0 w-full h-full  hidden md:block">
           <img src={BgWeb} alt="overlay" className=" w-full h-full " />
         </div>
 

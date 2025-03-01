@@ -21,6 +21,7 @@ const DesktopSkillsSvg = () => {
       <div className="w-full h-full bg-transparent relative z-20 " ref={ref}>
         <motion.svg width="542" height="567" viewBox="0 0 542 567" fill="none" xmlns="http://www.w3.org/2000/svg">
           {/* /Group 1 */}
+
           <motion.g
             clipPath="url(#clip0_2_36)"
             initial={{ y: initialY }}
@@ -28,7 +29,7 @@ const DesktopSkillsSvg = () => {
             transition={{ duration, delay: 2.0, ...otherTransition }}
             style={commonStyle}
           >
-            <rect x="49.2734" y="66" width="420" height="76" rx="20" transform="rotate(8 49.2734 66)" fill="#FE635C" />
+            <rect x="49.2734" y="66" width="340" height="76" rx="20" transform="rotate(8 49.2734 66)" fill="#FE635C" />
             <path
               d="M75.671 86.1618C80.418 85.3248 85.3081 86.0121 89.6405 88.1251V88.1251C93.9729 90.2382 97.5252 93.6685 99.7881 97.9245V97.9245C102.051 102.181 102.909 107.044 102.238 111.817V111.817C101.567 116.59 99.4021 121.029 96.0537 124.496V124.496C92.7053 127.964 88.3451 130.282 83.5981 131.119V131.119C78.8511 131.956 73.961 131.269 69.6286 129.156V129.156C65.2961 127.043 61.7439 123.612 59.4809 119.356V119.356C57.218 115.1 56.3605 110.237 57.0313 105.464V105.464C57.7022 100.69 59.8669 96.252 63.2153 92.7846V92.7846C66.5638 89.3172 70.9239 86.9988 75.671 86.1618V86.1618Z"
               fill="white"

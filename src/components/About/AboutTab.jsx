@@ -20,7 +20,7 @@ const AboutTab = () => {
   ];
 
   return (
-    <div className="col-span-3 hidden lg:block w-full space-y-5 h-full">
+    <div className="hidden lg:block w-full space-y-5">
       {tabLists.map((tab) => (
         <Link
           key={tab.title}

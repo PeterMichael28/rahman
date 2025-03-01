@@ -21,12 +21,12 @@ const WhatPeopleSay = () => {
     },
   ];
   return (
-    <section id="whatsetsmeapart" className="space-y-8 lg:space-y-14 mt-7 lg:mt-12">
+    <section className="space-y-8 lg:space-y-14">
       <SectionHeader text="What sets me apart" />
 
       <div className="flex flex-col gap-y-6 lg:gap-y-8 w-full mt-7 lg:mt-12" id="">
         {whatTheySayLists.map((obj, id) => (
-          <SingleCard obj={obj} id={id} key={id} activeTab={activeTab} setActiveTab={setActiveTab}/>
+          <SingleCard obj={obj} id={id} key={id} activeTab={activeTab} setActiveTab={setActiveTab} />
         ))}
       </div>
     </section>
