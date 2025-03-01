@@ -50,7 +50,7 @@ const SingleCard = ({ data, index }) => {
             </div>
           </div>
 
-          <button className="w-full top-full group-hover:top-0 transition-all duration-500 absolute h-[70px] rounded-[12px] bg-white flex justify-between items-center px-5 mt-5 ">
+          <button className="w-full top-full group-hover:top-0 transition-all duration-500 absolute h-[70px] rounded-[12px] bg-white flex justify-between items-center px-5 mt-11 ">
             <span className="text-lg font-medium text-primary-text">See Details</span>
             <img src={img2} alt="arrow-icon" className="size-7" />
           </button>
