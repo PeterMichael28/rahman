@@ -54,7 +54,7 @@ const HeroSection = () => {
         </p>
 
         <div
-          className="flex justify-between md:justify-start lg:justify-center items-center md:gap-4 mt-6 "
+          className="flex justify-between md:justify-start lg:justify-center items-center md:gap-4 mt-6 px-2"
           data-aos="fade-up"
         >
           {chipsContent.map((chip, i) => (
@@ -67,7 +67,7 @@ const HeroSection = () => {
           ))}
         </div>
 
-        <div className="w-full  lg:justify-center flex mt-10 lg:mt-12 " data-aos="fade-up">
+        <div className="w-full  lg:justify-center flex mt-10 lg:mt-12 px-2" dataaos="fade-up">
           {/* btn */}
           <Button
             icon={
