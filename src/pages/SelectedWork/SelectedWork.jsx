@@ -159,7 +159,11 @@ const SelectedWork = () => {
         <div className="mt-8 lg:mt-14 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-start gap-x-6 gap-y-8">
           {otherWork.map((data, i) => (
             <div key={i} className="w-full flex flex-col gap-y-3 lg:gap-y-4">
-              <img src={data.images[0]} alt="cover-image" className="w-full h-[190px] md:h-[214px]" />
+              <img
+                src={isSmallScreen ? data.images[1] : data.images[0]}
+                alt="cover-image"
+                className="w-full h-[190px] md:h-[214px]"
+              />
               <div className="border-onTertiary border rounded-[20px] w-full min-h-[117px] md:min-h-[126px] p-5">
                 <div className="flex justify-between items-center">
                   <p className="text-[20px] text-primary-text font-medium leading-normal md:text-[24px]">
