@@ -50,7 +50,7 @@ const SelectedWork = () => {
         <img
           src={isSmallScreen ? currentWork.images[1] : currentWork.images[0]}
           alt="cover-img"
-          className="w-full h-[246px] md:h-[446px] lg:h-[600px]"
+          className="w-full h-[186px] md:h-[446px] lg:h-[600px]"
         />
 
         <div className="mt-10 md:mt-16">
