@@ -2,7 +2,7 @@ import AppRouter from "./routes/AppRouter";
 
 function App() {
   return (
-    <div className="md:antialiased">
+    <div className="antialiased">
       <AppRouter />
     </div>
   );
